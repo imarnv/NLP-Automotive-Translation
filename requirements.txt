@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+python-multipart
+nltk
+transformers
+torch
+sacremoses
+reportlab
+pydantic
+python-docx
+
