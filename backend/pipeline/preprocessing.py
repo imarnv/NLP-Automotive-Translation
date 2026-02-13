@@ -21,9 +21,11 @@ def classify_terms(glossary: Dict[str, Dict[str, str]], target_lang: str) -> Tup
     """
     Splits glossary into PROTECTED and PREFERRED for the specific target language.
     target_lang: 'ta' (Tamil) or 'hi' (Hindi)
+    
+    UPDATE: User wants strict enforcement. ALL terms are now PROTECTED.
     """
     protected = {}
-    preferred = {}
+    preferred = {} # Kept empty for compatibility or future use
     
     # Map 'Tamil' -> 'ta', 'Hindi' -> 'hi' if full names passed, or assume code
     lang_code = 'ta' if 'tamil' in target_lang.lower() else 'hi' if 'hindi' in target_lang.lower() else 'ta'
@@ -38,11 +40,8 @@ def classify_terms(glossary: Dict[str, Dict[str, str]], target_lang: str) -> Tup
         if lang_code == 'hi':
             trans_value = re.sub(r'\s*\(.*?\)', '', trans_value).strip()
 
-        # Heuristic: If term has digits or is an abbreviation (all caps 3+ chars), likely protected ID/code
-        if any(char.isdigit() for char in term):
-            protected[term] = trans_value
-        else:
-            preferred[term] = trans_value
+        # Always protect
+        protected[term] = trans_value
             
     return protected, preferred
 

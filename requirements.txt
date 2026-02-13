@@ -2,10 +2,14 @@ fastapi
 uvicorn
 python-multipart
 nltk
-transformers
+transformers>=4.40.0
 torch
 sacremoses
-reportlab
+sentencepiece
+accelerate
+bitsandbytes
 pydantic
 python-docx
+reportlab
+indic-trans-toolkit @ git+https://github.com/AI4Bharat/IndicTransToolkit.git
 

@@ -1,9 +1,14 @@
 from fastapi import FastAPI, UploadFile, File, HTTPException, Form
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import JSONResponse, FileResponse
+from fastapi.responses import FileResponse
 import uvicorn
 import shutil
 import os
+import re
+from backend.utils.docx_utils import translate_docx
+from backend.pipeline.preprocessing import load_glossary, classify_terms
+from backend.pipeline.translation import translate_sentences
+from backend.utils.pdf_gen import generate_pdf
 
 app = FastAPI(title="Document Translation Backend")
 
@@ -16,8 +21,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Global progress state: {task_id: {"stage": "stage_name", "percent": 0}}
-# For this simple single-user app, we use a single global.
+# Global progress state
 progress_state = {"status": "idle", "percent": 0}
 
 @app.get("/status")
@@ -33,10 +37,29 @@ def update_progress(stage, percent):
     progress_state["status"] = stage
     progress_state["percent"] = percent
 
+def apply_glossary_post_translation(text: str, glossary: dict) -> str:
+    """
+    Post-translation glossary enforcement.
+    Finds any English glossary terms that survived translation and replaces them
+    with the correct target-language term from the glossary.
+    """
+    # Sort by length (longest first) to avoid partial matches
+    sorted_terms = sorted(glossary.keys(), key=len, reverse=True)
+    
+    result = text
+    for term in sorted_terms:
+        target_val = glossary[term]
+        # Match the English term (case-insensitive, whole word)
+        pattern = re.compile(r'\b' + re.escape(term) + r'\b', re.IGNORECASE)
+        result = pattern.sub(target_val, result)
+    
+    return result
+
 @app.post("/translate")
-async def translate_document(
+def translate_document(
     file: UploadFile = File(...),
-    target_lang: str = Form("Tamil") # Default to Tamil
+    target_lang: str = Form("Tamil"),
+    output_format: str = Form("pdf")
 ):
     global progress_state
     update_progress("Starting...", 0)
@@ -45,93 +68,80 @@ async def translate_document(
     upload_dir = "uploads"
     os.makedirs(upload_dir, exist_ok=True)
     file_path = f"{upload_dir}/{file.filename}"
-    output_filename = f"translated_{file.filename}.pdf"
+    
+    # Determine output extension
+    filename_lower = file.filename.lower()
+    
+    if filename_lower.endswith(".docx"):
+        output_filename = f"translated_{file.filename}"
+    elif output_format.lower() == "pdf":
+        output_filename = f"translated_{os.path.splitext(file.filename)[0]}.pdf"
+    else:
+        output_filename = f"translated_{file.filename}.txt"
+        
     output_path = f"{upload_dir}/{output_filename}"
     
     try:
         with open(file_path, "wb") as buffer:
             shutil.copyfileobj(file.file, buffer)
             
-        update_progress("Preprocessing...", 10)
-            
-        # 1. Pipeline Start
-        content = ""
-        filename = file.filename.lower()
+        update_progress("Loading Glossary...", 10)
         
-        try:
-            if filename.endswith(".docx"):
-                import docx
-                doc = docx.Document(file_path)
-                full_text = []
-                for para in doc.paragraphs:
-                    full_text.append(para.text)
-                content = "\n".join(full_text)
-            else:
-                # Default to text/plain
-                with open(file_path, "r", encoding="utf-8") as f:
-                    content = f.read()
-                    
-        except Exception as e:
-             print(f"Error reading file: {e}")
-             content = "Error reading file. Please ensure it is a valid text or docx file."
-
-        # 2. Preprocessing
-        from backend.pipeline.preprocessing import load_glossary, classify_terms, segment_text, protect_terms
-        
-        update_progress("Loading Glossary...", 20)
+        # Load Glossary
         full_glossary = load_glossary("english_tamil_hindi_glossary.json")
+        update_progress("Classifying Terms...", 15)
+        protected_glossary, _ = classify_terms(full_glossary, target_lang)
         
-        # Pass target_lang to classify
-        protected_glossary, preferred_glossary = classify_terms(full_glossary, target_lang)
-        
-        update_progress("Segmenting Text...", 30)
-        sentences = segment_text(content)
-        
-        # 3. Translation Loop
-        from backend.pipeline.translation import translate_sentences
-        from backend.pipeline.postprocessing import restore_placeholders, apply_preferred_translations
-        
-        full_translated_text = []
-        total_sents = len(sentences)
-        
-        update_progress("Translating...", 40)
-        
-        # Determine actual lang code for translation function
-        # Our classify_terms used 'ta'/'hi' but translate_sentences expects 'Tamil'/'Hindi' string to decide model
-        # or we can pass the raw target_lang string which is fine as valid input for our translation.py logic
-        
-        for i, sent in enumerate(sentences):
-            # Update progress based on sentence count (40% to 80%)
-            if total_sents > 0:
-                current_progress = 40 + int((i / total_sents) * 40)
-            else:
-                current_progress = 80
+        # Simple Translation Helper: translate then glossary-force-replace
+        def translation_helper(sentences, lang_code):
+            # 1. Translate directly (no placeholders - let the model see full context)
+            translated_batch = translate_sentences(sentences, target_lang=target_lang)
+            
+            # 2. Apply glossary post-translation (force-replace any English terms that survived)
+            final_sentences = []
+            for trans_s in translated_batch:
+                enforced = apply_glossary_post_translation(trans_s, protected_glossary)
+                final_sentences.append(enforced)
                 
-            if i % 5 == 0: # Update every 5 sentences to reduce overhead
-                 update_progress(f"Translating ({i+1}/{total_sents})", current_progress)
+            return final_sentences
 
-            # Mask ONLY protected terms
-            protected_sent, term_map = protect_terms(sent, protected_glossary)
+        update_progress("Initializing AI model...", 25)
+
+        if filename_lower.endswith(".docx"):
+            translate_docx(file_path, output_path, translation_helper, target_lang, update_progress)
             
-            # Translate
-            translated_batch = translate_sentences([protected_sent], target_lang=target_lang)
-            translated_sent = translated_batch[0]
+        else:
+            # Simple Text File
+            with open(file_path, "r", encoding="utf-8") as f:
+                content = f.read()
+                
+            # Segment
+            import nltk
+            sentences = nltk.sent_tokenize(content)
             
-            # Restore Protected Placeholders
-            restored_sent = restore_placeholders(translated_sent, term_map)
+            update_progress(f"Found {len(sentences)} sentences. Starting...", 30)
             
-            # Apply Preferred Translations
-            final_sent = apply_preferred_translations(restored_sent, preferred_glossary, target_lang=target_lang)
+            # Batch translation with progress updates
+            batch_size = 8
+            translated_sents = []
+            for i in range(0, len(sentences), batch_size):
+                batch = sentences[i:i+batch_size]
+                if not batch: continue
+                
+                translated_batch = translation_helper(batch, target_lang)
+                translated_sents.extend(translated_batch)
+                
+                # Update progress (30% to 95%)
+                progress = 30 + int(((i + len(batch)) / len(sentences)) * 65)
+                update_progress(f"Translating batch {i//batch_size + 1}...", min(progress, 99))
+
+            result_text = "\n".join(translated_sents)
             
-            full_translated_text.append(final_sent)
-        
-        update_progress("Post-processing...", 80)
-        result_text = "\n".join(full_translated_text)
-        
-        # 4. PDF Generation
-        update_progress("Generating PDF...", 90)
-        from backend.utils.pdf_gen import generate_pdf
-        generate_pdf(result_text, output_path)
+            if output_filename.endswith(".pdf"):
+                generate_pdf(result_text, output_path)
+            else:
+                with open(output_path, "w", encoding="utf-8") as f:
+                    f.write(result_text)
         
         update_progress("Completed", 100)
         
@@ -143,13 +153,23 @@ async def translate_document(
     except Exception as e:
         update_progress("Error", 0)
         print(f"Server Error: {e}")
+        import traceback
+        traceback.print_exc()
         raise HTTPException(status_code=500, detail=str(e))
 
 @app.get("/download/{filename}")
 async def download_file(filename: str):
     file_path = f"uploads/{filename}"
     if os.path.exists(file_path):
-        return FileResponse(file_path, media_type='application/pdf', filename=filename)
+        # Determine media type
+        if filename.endswith('.docx'):
+            media_type = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
+        elif filename.endswith('.pdf'):
+            media_type = 'application/pdf'
+        else:
+            media_type = 'text/plain'
+            
+        return FileResponse(file_path, media_type=media_type, filename=filename)
     raise HTTPException(status_code=404, detail="File not found")
 
 if __name__ == "__main__":

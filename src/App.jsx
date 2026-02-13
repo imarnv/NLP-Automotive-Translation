@@ -80,7 +80,7 @@ function App() {
       {!showMainUI && <IntroAnimation onComplete={handleIntroComplete} />}
 
       {/* Main Content */}
-      <div className={`transition-opacity duration-1000 ${showMainUI ? 'opacity-100' : 'opacity-0'}`}>
+      <div className={`transition-all duration-500 ${showMainUI ? 'block' : 'hidden'}`}>
         {/* Header */}
         <header className="fixed top-0 left-0 right-0 h-16 bg-white/80 backdrop-blur-md border-b border-gray-100 flex items-center px-6 md:px-12 z-40 transition-all duration-500">
           <div className={`flex items-center gap-2 transition-transform duration-1000 ${showMainUI ? 'translate-y-0' : '-translate-y-10'}`}>

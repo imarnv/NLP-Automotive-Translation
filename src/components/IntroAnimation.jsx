@@ -12,11 +12,11 @@ const IntroAnimation = ({ onComplete }) => {
 
         const timer1 = setTimeout(() => {
             setShowFullLogo(true);
-        }, 2500);
+        }, 1200);
 
         const timer2 = setTimeout(() => {
             onComplete();
-        }, 3500);
+        }, 1800);
 
         return () => {
             clearTimeout(timer1);
