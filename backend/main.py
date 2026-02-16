@@ -6,8 +6,9 @@ import shutil
 import os
 import re
 from backend.utils.docx_utils import translate_docx
-from backend.pipeline.preprocessing import load_glossary, classify_terms
+from backend.pipeline.preprocessing import load_glossary, classify_terms, protect_terms
 from backend.pipeline.translation import translate_sentences
+from backend.pipeline.postprocessing import restore_placeholders
 from backend.utils.pdf_gen import generate_pdf
 
 app = FastAPI(title="Document Translation Backend")
@@ -92,16 +93,36 @@ def translate_document(
         update_progress("Classifying Terms...", 15)
         protected_glossary, _ = classify_terms(full_glossary, target_lang)
         
-        # Simple Translation Helper: translate then glossary-force-replace
+        # Advanced Translation Helper: Protect -> Translate -> Restore
         def translation_helper(sentences, lang_code):
-            # 1. Translate directly (no placeholders - let the model see full context)
-            translated_batch = translate_sentences(sentences, target_lang=target_lang)
-            
-            # 2. Apply glossary post-translation (force-replace any English terms that survived)
             final_sentences = []
-            for trans_s in translated_batch:
-                enforced = apply_glossary_post_translation(trans_s, protected_glossary)
-                final_sentences.append(enforced)
+            
+            # 1. Protect Terms
+            protected_batch = []
+            placeholder_maps = []
+            
+            for s in sentences:
+                prot_text, ph_map = protect_terms(s, protected_glossary)
+                # Add extra padding spaces around placeholders to prevent model from merging them with adjacent words
+                for ph in ph_map:
+                    prot_text = prot_text.replace(ph, f" {ph} ")
+                protected_batch.append(prot_text)
+                placeholder_maps.append(ph_map)
+            
+            # If NLLB mangles it, we might need a regex fix later. 
+            # But this is the requested "fix" for quality - letting the model see the noun as a token.
+            
+            translated_batch = translate_sentences(protected_batch, target_lang=target_lang)
+            
+            # 3. Restore
+            for i, trans_s in enumerate(translated_batch):
+                # If translation failed (empty string), we just return empty
+                if not trans_s: 
+                    final_sentences.append("")
+                    continue
+                    
+                restored = restore_placeholders(trans_s, placeholder_maps[i], highlight=True)
+                final_sentences.append(restored)
                 
             return final_sentences
 

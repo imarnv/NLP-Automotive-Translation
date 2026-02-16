@@ -1,6 +1,7 @@
 import torch
 from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
 import os
+import re
 
 # Global caching
 model = None
@@ -68,16 +69,21 @@ def translate_batch(sentences: list, target_lang_code: str) -> list:
     
     try:
         with torch.no_grad():
-            generated_tokens = model.generate(
+            # Determination of target language token ID
+            # Usually NLLB expects something like 'hin_Deva' or 'tam_Taml'
+            # If the input target_lang_code is just 'hi' or 'ta', we might need mapping
+            # But let's revert to the version that was working before the blank issue
+            
+            outputs = model.generate(
                 **inputs,
                 forced_bos_token_id=tokenizer.convert_tokens_to_ids(target_lang_code),
-                max_length=256,
                 num_beams=5,
-                do_sample=False
+                no_repeat_ngram_size=3,
+                max_length=256
             )
             
         decoded = tokenizer.batch_decode(
-            generated_tokens,
+            outputs, 
             skip_special_tokens=True,
             clean_up_tokenization_spaces=True,
         )
@@ -91,4 +97,4 @@ def translate_batch(sentences: list, target_lang_code: str) -> list:
         return result
     except Exception as e:
         print(f"Translation Error: {e}")
-        return sentences # Fallback to original
+        return [""] * len(sentences) # Return empty strings on error to prevent English leakage

@@ -7,6 +7,7 @@ import os
 import urllib.request
 import zipfile
 import glob
+import re
 
 def generate_pdf(translated_text: str, output_path: str):
     """
@@ -86,24 +87,54 @@ def generate_pdf(translated_text: str, output_path: str):
         print(f"Font error, falling back to Helvetica: {e}")
         c.setFont("Helvetica", 12)
         
-    text_object = c.beginText(inch, height - inch)
+    from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer
+    from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
+    from reportlab.lib.colors import yellow
+    from reportlab.lib.utils import escape
     
-    # Simple line wrapping logic
-    lines = translated_text.split('\n')
-    max_chars_per_line = 80  # Approximate chars per line at 12pt
+    # Create the PDF document with tighter margins to preserve layout
+    doc = SimpleDocTemplate(
+        output_path, 
+        pagesize=letter,
+        leftMargin=0.5*inch,
+        rightMargin=0.5*inch,
+        topMargin=0.5*inch,
+        bottomMargin=0.5*inch
+    )
+    story = []
+    styles = getSampleStyleSheet()
     
-    for line in lines:
-        # Basic wrapping
-        while len(line) > max_chars_per_line:
-            # Find a space to break at
-            break_at = line.rfind(' ', 0, max_chars_per_line)
-            if break_at == -1:
-                break_at = max_chars_per_line
-            text_object.textLine(line[:break_at])
-            line = line[break_at:].lstrip()
-        text_object.textLine(line)
+    # Create a custom style with the Indic font and tighter layout
+    custom_style = ParagraphStyle(
+        'CustomIndic',
+        parent=styles['Normal'],
+        fontName=font_name,
+        fontSize=11,
+        leading=14,
+        spaceAfter=6,
+    )
+    
+    # Process text for markers: @@term@@ -> <font backColor="yellow">term</font>
+    content = translated_text
+    
+    # Helper to convert markers to ReportLab markup
+    def markup_text(text):
+        # 1. Escape basic XML
+        text = escape(text)
+        # 2. Convert markers
+        text = re.sub(r'@@(.*?)@@', r'<font backcolor="yellow">\1</font>', text)
+        return text
+
+    # Split into entries/paragraphs
+    paragraphs = content.split('\n')
+    for p_text in paragraphs:
+        p_text = p_text.strip()
+        if not p_text:
+            story.append(Spacer(1, 8))
+            continue
+            
+        markup = markup_text(p_text)
+        story.append(Paragraph(markup, custom_style))
         
-    c.drawText(text_object)
-    c.showPage()
-    c.save()
+    doc.build(story)
     return output_path

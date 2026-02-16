@@ -1,5 +1,6 @@
 from docx import Document
 from copy import deepcopy
+import re
 
 def translate_docx(input_path, output_path, translate_func, target_lang_code, progress_callback=None):
     """
@@ -94,22 +95,54 @@ def translate_docx(input_path, output_path, translate_func, target_lang_code, pr
         first_run = para.runs[0]
         is_bold = first_run.bold
         is_italic = first_run.italic
+        underline = first_run.underline
         font_name = first_run.font.name
         font_size = first_run.font.size
-        color = first_run.font.color.rgb if first_run.font.color else None
         
-        # Clear
-        for _ in range(len(para.runs)):
-            p = para._p
-            p.remove(p.getchildren()[0]) # clear content
+        # Capture complex color info
+        color_rgb = None
+        theme_color = None
+        color_tint = 0.0
+        if first_run.font.color:
+            color_rgb = first_run.font.color.rgb
+            theme_color = first_run.font.color.theme_color
+            color_tint = first_run.font.color.tint if hasattr(first_run.font.color, 'tint') else 0.0
+        
+        from docx.enum.text import WD_COLOR_INDEX
+
+        # Safer clear: Remove only runs, keep paragraph properties (pPr) like bullets/spacing
+        for run in para.runs:
+            run._element.getparent().remove(run._element)
             
-        # Add new
-        new_run = para.add_run(translated_text)
-        new_run.bold = is_bold
-        new_run.italic = is_italic
-        if font_name: new_run.font.name = font_name
-        if font_size: new_run.font.size = font_size
-        if color: new_run.font.color.rgb = color
+        # Split text by highlighting markers @@term@@
+        parts = re.split(r'(@@.*?@@)', translated_text)
+        
+        for part in parts:
+            if not part: continue
+            
+            is_highlight = part.startswith('@@') and part.endswith('@@')
+            display_text = part[2:-2] if is_highlight else part
+            
+            new_run = para.add_run(display_text)
+            
+            # Apply highlighting
+            if is_highlight:
+                new_run.font.highlight_color = WD_COLOR_INDEX.YELLOW
+                
+            # Preserve original style
+            new_run.bold = is_bold
+            new_run.italic = is_italic
+            new_run.underline = underline
+            if font_name: new_run.font.name = font_name
+            if font_size: new_run.font.size = font_size
+            
+            # Re-apply color
+            if color_rgb:
+                new_run.font.color.rgb = color_rgb
+            elif theme_color:
+                new_run.font.color.theme_color = theme_color
+                if color_tint != 0.0:
+                    new_run.font.color.tint = color_tint
         
     # Save
     doc.save(output_path)
