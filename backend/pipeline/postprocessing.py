@@ -36,13 +36,18 @@ def restore_placeholders(translated_text: str, placeholder_map: Dict[str, str], 
                 val = val_map[idx]
                 if highlight:
                     return f" @@{val}@@ "
-                return f" {val} "
+                # Return the value directly. Space normalization happens in later passes.
+                return val
         except (ValueError, KeyError):
             pass
         return match.group(0)
 
     # First pass
     restored_text = pattern.sub(replace_match, restored_text)
+    
+    # NEW: Safety pass to ensure no highlighter markers leak out if highlight=False
+    if not highlight:
+        restored_text = restored_text.replace("@@", "")
     
     # Pass 2: Extremely broken cases starting with M (e.g. __ m 1 __)
     broken_pattern = re.compile(r'__?\s*M\s*[M \s _ a-z]*?\s*(\d+)\s*__?', re.IGNORECASE)
@@ -53,19 +58,46 @@ def restore_placeholders(translated_text: str, placeholder_map: Dict[str, str], 
     last_resort_pattern = re.compile(r'__\s*[ \s _ ]*(\d+)\s*[ \s _ ]*__', re.IGNORECASE)
     restored_text = last_resort_pattern.sub(replace_match, restored_text)
     
-    # Pass 4: Clean up any remaining partial placeholder artifacts like "___", "__ __"
-    # Often the model adds these at the end of a line/heading.
+    # Pass 4: Clean up any remaining partial placeholder artifacts
     restored_text = re.sub(r'__\s*__', '', restored_text)
     restored_text = re.sub(r'_\s*_\s*_\s*', '', restored_text)
+    
+    # Pass 4.5: Remove orphaned TERM/TER fragments the model mangled beyond recognition
+    # Catches: TER__, __TER, TERM_, __TERM__, _TER_ etc. (requires _ or start-of-word boundary)
+    restored_text = re.sub(r'(?:^|(?<=\s)|(?<=_))_*T[\s_]*E[\s_]*R[\s_]*M?\s*_*(?=\s|$|_)', '', restored_text, flags=re.IGNORECASE)
+    
+    # NEW: Remove sequences of 3+ underscores (common model filler)
+    restored_text = re.sub(r'_{3,}', '', restored_text)
+    
+    # New: Remove "spacer" underscores between words
+    restored_text = re.sub(r'(\w)\s*_\s*(\w)', r'\1 \2', restored_text)
+    restored_text = re.sub(r'\s+_\s+', ' ', restored_text)
+    
+    # NEW: Remove ANY lone underscores not part of a word
+    restored_text = re.sub(r'\s_\s', ' ', restored_text)
+    restored_text = re.sub(r'^_\s|\s_$', '', restored_text)
+    restored_text = re.sub(r'\s_$', '', restored_text)
+    restored_text = re.sub(r'^_\s', '', restored_text)
 
-    # Pass 5: Specific cleanup for trailing underscores at the end of headings/sentences
-    # Fixes the "_ _" issue reported by the user.
+    # Pass 5: Specific cleanup for trailing underscores
     restored_text = re.sub(r'[\s_]+$', '', restored_text)
 
-    # Pass 6: Final space normalization (Double spaces -> Single)
-    restored_text = re.sub(r'\s+', ' ', restored_text).strip()
+    # Pass 6: Final space normalization
+    while "  " in restored_text:
+        restored_text = restored_text.replace("  ", " ")
     
-    return restored_text
+    # PASS 7: Transliteration Fallback for English leftovers (e.g., strainer, bolt)
+    # This is a safety pass for terms the model missed.
+    # Note: IndicTrans2 usually doesn't need this, but we'll add a check for common table labels.
+    fallback_map = {
+        "strainer": "स्ट्रेनर", "bolt": "बोल्ट", "nut": "नट", "bracket": "ब्रैकेट",
+        "washer": "वाशर", "screw": "स्क्रू", "stand": "स्टैंड", "plug": "प्लग",
+        "housing": "हाउसिंग", "gasket": "गास्केट", "seal": "सील"
+    }
+    for eng, ind in fallback_map.items():
+        restored_text = re.sub(r'\b' + eng + r'\b', ind, restored_text, flags=re.IGNORECASE)
+    
+    return restored_text.strip()
 
 def apply_preferred_translations(text: str, preferred_glossary: Dict[str, str], target_lang: str = "tam") -> str:
     """

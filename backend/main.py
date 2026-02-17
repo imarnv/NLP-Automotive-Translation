@@ -74,7 +74,12 @@ def translate_document(
     filename_lower = file.filename.lower()
     
     if filename_lower.endswith(".docx"):
+        # Even if output_format is "pdf", we currently save as .docx 
+        # to avoid corrupting the file by renaming.
         output_filename = f"translated_{file.filename}"
+        if output_format.lower() == "pdf":
+            # Just a note for future: would need docx2pdf here
+            pass 
     elif output_format.lower() == "pdf":
         output_filename = f"translated_{os.path.splitext(file.filename)[0]}.pdf"
     else:
@@ -94,36 +99,38 @@ def translate_document(
         protected_glossary, _ = classify_terms(full_glossary, target_lang)
         
         # Advanced Translation Helper: Protect -> Translate -> Restore
-        def translation_helper(sentences, lang_code):
+        def translation_helper(sentences, lang_code, progress_callback=None):
             final_sentences = []
+            batch_size = 30
+            total = len(sentences)
             
-            # 1. Protect Terms
-            protected_batch = []
-            placeholder_maps = []
-            
-            for s in sentences:
-                prot_text, ph_map = protect_terms(s, protected_glossary)
-                # Add extra padding spaces around placeholders to prevent model from merging them with adjacent words
-                for ph in ph_map:
-                    prot_text = prot_text.replace(ph, f" {ph} ")
-                protected_batch.append(prot_text)
-                placeholder_maps.append(ph_map)
-            
-            # If NLLB mangles it, we might need a regex fix later. 
-            # But this is the requested "fix" for quality - letting the model see the noun as a token.
-            
-            translated_batch = translate_sentences(protected_batch, target_lang=target_lang)
-            
-            # 3. Restore
-            for i, trans_s in enumerate(translated_batch):
-                # If translation failed (empty string), we just return empty
-                if not trans_s: 
-                    final_sentences.append("")
-                    continue
-                    
-                restored = restore_placeholders(trans_s, placeholder_maps[i], highlight=True)
-                final_sentences.append(restored)
+            for i in range(0, total, batch_size):
+                batch_sentences = sentences[i : i + batch_size]
                 
+                # 1. Protect Terms
+                protected_batch = []
+                placeholder_maps = []
+                for s in batch_sentences:
+                    prot_text, ph_map = protect_terms(s, protected_glossary)
+                    protected_batch.append(prot_text)
+                    placeholder_maps.append(ph_map)
+                
+                # 2. Translate Batch
+                translated_batch = translate_sentences(protected_batch, target_lang=target_lang)
+                
+                # 3. Restore
+                for j, trans_s in enumerate(translated_batch):
+                    if not trans_s:
+                        final_sentences.append("")
+                        continue
+                    restored = restore_placeholders(trans_s, placeholder_maps[j], highlight=True)
+                    final_sentences.append(restored)
+                
+                # Update progress within the 40-80% range
+                if progress_callback:
+                    current_prog = 40 + int((len(final_sentences) / total) * 40)
+                    progress_callback(f"Translating {len(final_sentences)}/{total} segments...", current_prog)
+                    
             return final_sentences
 
         update_progress("Initializing AI model...", 25)
