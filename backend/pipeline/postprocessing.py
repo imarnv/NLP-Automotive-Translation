@@ -86,16 +86,53 @@ def restore_placeholders(translated_text: str, placeholder_map: Dict[str, str], 
     while "  " in restored_text:
         restored_text = restored_text.replace("  ", " ")
     
-    # PASS 7: Transliteration Fallback for English leftovers (e.g., strainer, bolt)
-    # This is a safety pass for terms the model missed.
-    # Note: IndicTrans2 usually doesn't need this, but we'll add a check for common table labels.
-    fallback_map = {
+    # PASS 7: Transliteration Fallback for English leftovers
+    # Detects common English words/phrases the model failed to translate and
+    # replaces them with their Indic equivalents.
+    #
+    # Detect target language from the script already present in the text
+    # to avoid applying the WRONG language's fallback.
+    has_tamil = any('\u0B80' <= c <= '\u0BFF' for c in restored_text)
+    has_devanagari = any('\u0900' <= c <= '\u097F' for c in restored_text)
+    
+    # Hindi fallback
+    hindi_fallback = {
         "strainer": "स्ट्रेनर", "bolt": "बोल्ट", "nut": "नट", "bracket": "ब्रैकेट",
         "washer": "वाशर", "screw": "स्क्रू", "stand": "स्टैंड", "plug": "प्लग",
-        "housing": "हाउसिंग", "gasket": "गास्केट", "seal": "सील"
+        "housing": "हाउसिंग", "gasket": "गास्केट", "seal": "सील",
+        "and Equipment": "और उपकरण", "and": "और",
+        "Removal and Installation": "निकालना और स्थापना",
+        "Removal and": "निकालना और", "Note": "नोट",
+        "Required service material": "आवश्यक सेवा सामग्री",
+        "is also described in": "में भी वर्णित है",
+        "length": "लंबाई", "Relief": "रिलीफ",
     }
-    for eng, ind in fallback_map.items():
-        restored_text = re.sub(r'\b' + eng + r'\b', ind, restored_text, flags=re.IGNORECASE)
+    # Tamil fallback 
+    tamil_fallback = {
+        "strainer": "வடிகட்டி", "bolt": "போல்ட்", "nut": "நட்", "bracket": "பிராக்கெட்",
+        "washer": "வாஷர்", "screw": "திருகு", "stand": "நிலைப்பாடு", "plug": "பிளக்",
+        "housing": "ஹவுசிங்", "gasket": "காஸ்கெட்", "seal": "சீல்",
+        "and Equipment": "மற்றும் உபகரணங்கள்", "and": "மற்றும்",
+        "Removal and Installation": "அகற்றுதல் மற்றும் நிறுவுதல்",
+        "Removal and": "அகற்றுதல் மற்றும்", "Note": "குறிப்பு",
+        "Required service material": "தேவையான சேவைப் பொருள்",
+        "is also described in": "இதிலும் விவரிக்கப்பட்டுள்ளது",
+        "length": "நீளம்", "Relief": "ரிலீஃப்",
+    }
+    
+    # Pick the right map based on script detected in the text
+    if has_tamil:
+        active_fallback = tamil_fallback
+    elif has_devanagari:
+        active_fallback = hindi_fallback
+    else:
+        active_fallback = {}  # Pure English or unknown → skip
+    
+    # Sort by key length (longest first) to avoid partial replacement
+    sorted_terms = sorted(active_fallback.keys(), key=len, reverse=True)
+    for eng in sorted_terms:
+        ind = active_fallback[eng]
+        restored_text = re.sub(r'\b' + re.escape(eng) + r'\b', ind, restored_text, flags=re.IGNORECASE)
     
     return restored_text.strip()
 

@@ -10,6 +10,7 @@ from backend.pipeline.preprocessing import load_glossary, classify_terms, protec
 from backend.pipeline.translation import translate_sentences
 from backend.pipeline.postprocessing import restore_placeholders
 from backend.utils.pdf_gen import generate_pdf
+from docx2pdf import convert as docx2pdf_convert
 
 app = FastAPI(title="Document Translation Backend")
 
@@ -74,15 +75,17 @@ def translate_document(
     filename_lower = file.filename.lower()
     
     if filename_lower.endswith(".docx"):
-        # Even if output_format is "pdf", we currently save as .docx 
-        # to avoid corrupting the file by renaming.
-        output_filename = f"translated_{file.filename}"
+        # Always produce intermediate .docx first, then convert to PDF
+        docx_output = f"{upload_dir}/translated_{file.filename}"
         if output_format.lower() == "pdf":
-            # Just a note for future: would need docx2pdf here
-            pass 
+            output_filename = f"translated_{os.path.splitext(file.filename)[0]}.pdf"
+        else:
+            output_filename = f"translated_{file.filename}"
     elif output_format.lower() == "pdf":
+        docx_output = None
         output_filename = f"translated_{os.path.splitext(file.filename)[0]}.pdf"
     else:
+        docx_output = None
         output_filename = f"translated_{file.filename}.txt"
         
     output_path = f"{upload_dir}/{output_filename}"
@@ -118,12 +121,14 @@ def translate_document(
                 # 2. Translate Batch
                 translated_batch = translate_sentences(protected_batch, target_lang=target_lang)
                 
-                # 3. Restore
+                # 3. Restore + post-translation glossary enforcement
                 for j, trans_s in enumerate(translated_batch):
                     if not trans_s:
                         final_sentences.append("")
                         continue
                     restored = restore_placeholders(trans_s, placeholder_maps[j], highlight=True)
+                    # Catch any English glossary terms that survived translation
+                    restored = apply_glossary_post_translation(restored, protected_glossary)
                     final_sentences.append(restored)
                 
                 # Update progress within the 40-80% range
@@ -136,7 +141,22 @@ def translate_document(
         update_progress("Initializing AI model...", 25)
 
         if filename_lower.endswith(".docx"):
-            translate_docx(file_path, output_path, translation_helper, target_lang, update_progress)
+            # Step 1: Produce the translated DOCX
+            translate_docx(file_path, docx_output, translation_helper, target_lang, update_progress)
+            
+            # Step 2: Convert DOCX → PDF if requested
+            if output_format.lower() == "pdf":
+                update_progress("Converting to PDF...", 96)
+                try:
+                    docx2pdf_convert(docx_output, output_path)
+                except Exception as pdf_err:
+                    print(f"docx2pdf conversion failed: {pdf_err}")
+                    # Fallback: serve the DOCX directly
+                    output_path = docx_output
+                    output_filename = os.path.basename(docx_output)
+            else:
+                # output_path is the same as docx_output
+                output_path = docx_output
             
         else:
             # Simple Text File

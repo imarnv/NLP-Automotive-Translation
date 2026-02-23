@@ -45,6 +45,7 @@ function App() {
       // Logic: Pick the first or join them? Backend expects single "Tamil" or "Hindi".
       // Let's pick the first one.
       formData.append('target_lang', selectedLanguages[0]);
+      formData.append('output_format', 'pdf');
 
       const response = await fetch('http://localhost:8000/translate', {
         method: 'POST',
