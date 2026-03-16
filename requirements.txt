@@ -11,5 +11,6 @@ bitsandbytes
 pydantic
 python-docx
 reportlab
-indic-trans-toolkit @ git+https://github.com/AI4Bharat/IndicTransToolkit.git
-
+beautifulsoup4
+lxml
+docx2pdf

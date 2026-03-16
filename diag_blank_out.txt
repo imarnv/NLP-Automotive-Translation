@@ -1,0 +1,62 @@
+﻿======================================================================
+BLANK PAGE ANALYSIS
+======================================================================
+
+--- LARGE PAGE-RELATIVE ANCHORS (potential blank page causes) ---
+
+Anchor #13: 0.01in x 10.04in
+  V: relFrom=page, offset=576072 (0.63in)
+  H: relFrom=page, offset=4021835
+  behindDoc=0
+  Anchor para text: ''
+
+Anchor #19: 0.01in x 9.37in
+  V: relFrom=page, offset=576072 (0.63in)
+  H: relFrom=page, offset=3773423
+  behindDoc=0
+python : Traceback 
+(most recent call 
+last):
+At line:1 char:1
++ python diag_blank.py 
+2>&1 | Out-File 
+-FilePath 
+diag_blank_out.txt -En 
+...
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (Traceback (mo   
+ st recent call las    
+t)::String) [], Re    
+moteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+  File "C:\Users\Arnav 
+Mehta\Desktop\NLP-Autom
+otive-Translation\diag_
+blank.py", line 55, in 
+<module>
+    print(f"  Anchor 
+para text: 
+'{text[:80]}'")
+  File "C:\Users\Arnav 
+Mehta\AppData\Local\Pro
+grams\Python\Python312\
+Lib\encodings\cp1252.py
+", line 19, in encode
+    return codecs.charm
+ap_encode(input,self.er
+rors,encoding_table)[0]
+           ^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 
+'charmap' codec can't 
+encode characters in 
+position 21-23: 
+character maps to 
+<undefined>

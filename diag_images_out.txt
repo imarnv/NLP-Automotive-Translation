@@ -1,0 +1,701 @@
+﻿======================================================================
+ANCHORED IMAGE DIAGNOSTIC
+======================================================================
+
+Total anchored images found: 86
+
+--- Anchor #1 ---
+  Size: 0.0in x 2.7in (13335 x 2455545 EMU)
+  Vertical: relativeFrom='paragraph', offset=148372
+  Horizontal: relativeFrom='page', offset=4021835
+  behindDoc=0, layoutInCell=1
+  In table cell: False
+  Wrap type: wrapNone
+
+--- Anchor #2 ---
+  Size: 0.0in x 2.7in (13335 x 2440940 EMU)
+  Vertical: relativeFrom='paragraph', offset=-269214
+  Horizontal: relativeFrom='page', offset=3773423
+  behindDoc=0, layoutInCell=1
+  In table cell: False
+  Wrap type: wrapNone
+
+--- Anchor #3 ---
+  Size: 0.1in x 0.1in (116839 x 108585 EMU)
+  Vertical: relativeFrom='paragraph', offset=145554
+  Horizontal: relativeFrom='page', offset=696213
+  behindDoc=0, layoutInCell=1
+  In table cell: False
+  Wrap type: wrapNone
+
+--- Anchor #4 ---
+  Size: 2.2in x 1.8in (2026920 x 1649730 EMU)
+  Vertical: relativeFrom='paragraph', offset=19564
+  Horizontal: relativeFrom='page', offset=4458754
+  behindDoc=0, layoutInCell=1
+  In table cell: False
+  Wrap type: wrapNone
+
+--- Anchor #5 ---
+  Size: 0.0in x 6.6in (13335 x 6053455 EMU)
+  Vertical: relativeFrom='paragraph', offset=-113785
+  Horizontal: relativeFrom='page', offset=3773423
+  behindDoc=0, layoutInCell=1
+  In table cell: False
+  Wrap type: wrapNone
+
+--- Anchor #6 ---
+  Size: 3.2in x 0.0in (2952115 x 25400 EMU)
+  Vertical: relativeFrom='paragraph', offset=77525
+  Horizontal: relativeFrom='page', offset=684276
+  behindDoc=1, layoutInCell=1
+  In table cell: False
+  Wrap type: wrapTopAndBottom
+
+--- Anchor #7 ---
+  Size: 2.9in x 2.0in (2693035 x 1846580 EMU)
+  Vertical: relativeFrom='paragraph', offset=-1846824
+  Horizontal: relativeFrom='page', offset=4125721
+  behindDoc=0, layoutInCell=1
+  In table cell: False
+  Wrap type: wrapNone
+
+--- Anchor #8 ---
+  Size: 3.2in x 0.0in (2952115 x 13335 EMU)
+  Vertical: relativeFrom='paragraph', offset=273686
+  Horizontal: relativeFrom='page', offset=4352544
+  behindDoc=0, layoutInCell=1
+  In table cell: False
+  Wrap type: wrapNone
+
+--- Anchor #9 ---
+  Size: 3.2in x 0.0in (2952115 x 13335 EMU)
+  Vertical: relativeFrom='paragraph', offset=831827
+  Horizontal: relativeFrom='page', offset=4352544
+  behindDoc=0, layoutInCell=1
+  In table cell: False
+  Wrap type: wrapNone
+
+--- Anchor #10 ---
+  Size: 2.9in x 2.0in (2693035 x 1845945 EMU)
+  Vertical: relativeFrom='paragraph', offset=-1847170
+  Horizontal: relativeFrom='page', offset=954189
+  behindDoc=0, layoutInCell=1
+  In table cell: False
+  Wrap type: wrapNone
+
+--- Anchor #11 ---
+  Size: 1.9in x 0.2in (1755775 x 193675 EMU)
+  Vertical: relativeFrom='paragraph', offset=-41540
+  Horizontal: relativeFrom='page', offset=4874272
+  behindDoc=1, layoutInCell=1
+  In table cell: False
+  Wrap type: wrapNone
+
+--- Anchor #12 ---
+  Size: 2.1in x 0.0in (1901825 x 35560 EMU)
+  Vertical: relativeFrom='paragraph', offset=-12440
+  Horizontal: relativeFrom='page', offset=4819612
+  behindDoc=0, layoutInCell=1
+  In table cell: False
+  Wrap type: wrapNone
+
+--- Anchor #13 ---
+  Size: 0.0in x 10.0in (13335 x 9180195 EMU)
+  Vertical: relativeFrom='page', offset=576072
+  Horizontal: relativeFrom='page', offset=4021835
+  behindDoc=0, layoutInCell=1
+  In table cell: False
+  Wrap type: wrapNone
+
+--- Anchor #14 ---
+  Size: 1.5in x 1.9in (1416685 x 1731645 EMU)
+  Vertical: relativeFrom='paragraph', offset=128096
+  Horizontal: relativeFrom='page', offset=1300822
+  behindDoc=0, layoutInCell=1
+  In table cell: False
+  Wrap type: wrapNone
+
+--- Anchor #15 ---
+  Size: 2.8in x 2.4in (2597785 x 2225040 EMU)
+  Vertical: relativeFrom='paragraph', offset=-1411801
+  Horizontal: relativeFrom='page', offset=4173359
+  behindDoc=0, layoutInCell=1
+  In table cell: False
+  Wrap type: wrapNone
+
+--- Anchor #16 ---
+  Size: 1.7in x 0.2in (1548765 x 139700 EMU)
+  Vertical: relativeFrom='paragraph', offset=70283
+  Horizontal: relativeFrom='page', offset=1277874
+  behindDoc=1, layoutInCell=1
+  In table cell: False
+  Wrap type: wrapTopAndBottom
+
+--- Anchor #17 ---
+  Size: 2.8in x 2.9in (2515870 x 2654935 EMU)
+  Vertical: relativeFrom='paragraph', offset=-143687
+  Horizontal: relativeFrom='page', offset=794359
+  behindDoc=0, layoutInCell=1
+  In table cell: False
+  Wrap type: wrapNone
+
+--- Anchor #18 ---
+  Size: 2.7in x 2.3in (2506980 x 2147570 EMU)
+  Vertical: relativeFrom='paragraph', offset=-1450408
+  Horizontal: relativeFrom='page', offset=4218609
+  behindDoc=0, layoutInCell=1
+  In table cell: False
+  Wrap type: wrapNone
+
+--- Anchor #19 ---
+  Size: 0.0in x 9.4in (13335 x 8564880 EMU)
+  Vertical: relativeFrom='page', offset=576072
+  Horizontal: relativeFrom='page', offset=3773423
+  behindDoc=0, layoutInCell=1
+  In table cell: False
+  Wrap type: wrapNone
+
+--- Anchor #20 ---
+  Size: 0.2in x 0.2in (147624 x 147637 EMU)
+  Vertical: relativeFrom='paragraph', offset=78955
+  Horizontal: relativeFrom='page', offset=2058200
+  behindDoc=1, layoutInCell=1
+  In table cell: False
+  Wrap type: wrapTopAndBottom
+
+--- Anchor #21 ---
+  Size: 4.1in x 4.9in (3731260 x 4453255 EMU)
+  Vertical: relativeFrom='paragraph', offset=-4453220
+  Horizontal: relativeFrom='page', offset=2231556
+  behindDoc=0, layoutInCell=1
+  In table cell: False
+  Wrap type: wrapNone
+
+--- Anchor #22 ---
+  Size: 0.0in x 1.0in (10160 x 935990 EMU)
+  Vertical: relativeFrom='paragraph', offset=-1953848
+  Horizontal: relativeFrom='page', offset=4089704
+  behindDoc=1, layoutInCell=1
+  In table cell: False
+  Wrap type: wrapNone
+
+--- Anchor #23 ---
+  Size: 0.1in x 0.2in (127000 x 148590 EMU)
+  Vertical: relativeFrom='paragraph', offset=-184451
+  Horizontal: relativeFrom='page', offset=5080297
+  behindDoc=0, layoutInCell=1
+  In table cell: False
+  Wrap type: wrapNone
+
+--- Anchor #24 ---
+  Size: 0.1in x 0.2in (127000 x 148590 EMU)
+  Vertical: relativeFrom='paragraph', offset=-458490
+  Horizontal: relativeFrom='page', offset=2417564
+  behindDoc=0, layoutInCell=1
+  In table cell: False
+  Wrap type: wrapNone
+
+--- Anchor #25 ---
+  Size: 0.2in x 0.2in (204470 x 165100 EMU)
+  Vertical: relativeFrom='paragraph', offset=34745
+  Horizontal: relativeFrom='column', offset=182118
+  behindDoc=1, layoutInCell=1
+  In table cell: True
+  Wrap type: wrapNone
+
+--- Anchor #26 ---
+  Size: 0.1in x 0.1in (109855 x 109855 EMU)
+  Vertical: relativeFrom='paragraph', offset=9727
+  Horizontal: relativeFrom='column', offset=102108
+  behindDoc=1, layoutInCell=1
+  In table cell: True
+  Wrap type: wrapNone
+
+--- Anchor #27 ---
+  Size: 0.2in x 0.2in (204470 x 165100 EMU)
+  Vertical: relativeFrom='paragraph', offset=34111
+  Horizontal: relativeFrom='column', offset=289560
+  behindDoc=1, layoutInCell=1
+  In table cell: True
+  Wrap type: wrapNone
+
+--- Anchor #28 ---
+  Size: 0.3in x 0.1in (281940 x 109855 EMU)
+  Vertical: relativeFrom='paragraph', offset=9599
+  Horizontal: relativeFrom='column', offset=110506
+  behindDoc=1, layoutInCell=1
+  In table cell: True
+  Wrap type: wrapNone
+
+--- Anchor #29 ---
+  Size: 0.1in x 0.1in (109855 x 109855 EMU)
+  Vertical: relativeFrom='paragraph', offset=9599
+  Horizontal: relativeFrom='column', offset=341376
+  behindDoc=1, layoutInCell=1
+  In table cell: True
+  Wrap type: wrapNone
+
+--- Anchor #30 ---
+  Size: 0.1in x 0.1in (109855 x 109855 EMU)
+  Vertical: relativeFrom='paragraph', offset=9599
+  Horizontal: relativeFrom='column', offset=347472
+  behindDoc=1, layoutInCell=1
+  In table cell: True
+  Wrap type: wrapNone
+
+--- Anchor #31 ---
+  Size: 0.1in x 0.1in (109855 x 109855 EMU)
+  Vertical: relativeFrom='paragraph', offset=9600
+  Horizontal: relativeFrom='column', offset=341376
+  behindDoc=1, layoutInCell=1
+  In table cell: True
+  Wrap type: wrapNone
+
+--- Anchor #32 ---
+  Size: 0.1in x 0.1in (109855 x 109855 EMU)
+  Vertical: relativeFrom='paragraph', offset=9600
+  Horizontal: relativeFrom='column', offset=341376
+  behindDoc=1, layoutInCell=1
+  In table cell: True
+  Wrap type: wrapNone
+
+--- Anchor #33 ---
+  Size: 0.2in x 0.2in (204470 x 165100 EMU)
+  Vertical: relativeFrom='paragraph', offset=34746
+  Horizontal: relativeFrom='column', offset=182118
+  behindDoc=1, layoutInCell=1
+  In table cell: True
+  Wrap type: wrapNone
+
+--- Anchor #34 ---
+  Size: 0.0in x 1.9in (18415 x 1704339 EMU)
+  Vertical: relativeFrom='page', offset=1305623
+  Horizontal: relativeFrom='page', offset=4068940
+  behindDoc=1, layoutInCell=1
+  In table cell: False
+  Wrap type: wrapNone
+
+--- Anchor #35 ---
+  Size: 0.0in x 0.8in (1270 x 739140 EMU)
+  Vertical: relativeFrom='page', offset=1474660
+  Horizontal: relativeFrom='page', offset=3168764
+  behindDoc=1, layoutInCell=1
+  In table cell: False
+  Wrap type: wrapNone
+
+--- Anchor #36 ---
+  Size: 0.0in x 0.4in (1270 x 344170 EMU)
+  Vertical: relativeFrom='page', offset=2381224
+  Horizontal: relativeFrom='page', offset=3240417
+  behindDoc=1, layoutInCell=1
+  In table cell: False
+  Wrap type: wrapNone
+
+--- Anchor #37 ---
+  Size: 0.0in x 1.8in (15240 x 1667510 EMU)
+  Vertical: relativeFrom='page', offset=1288719
+  Horizontal: relativeFrom='page', offset=3627183
+  behindDoc=1, layoutInCell=1
+  In table cell: False
+  Wrap type: wrapNone
+
+--- Anchor #38 ---
+  Size: 0.1in x 0.2in (127000 x 148590 EMU)
+  Vertical: relativeFrom='page', offset=1969498
+  Horizontal: relativeFrom='page', offset=2708139
+  behindDoc=0, layoutInCell=1
+  In table cell: False
+  Wrap type: wrapNone
+
+--- Anchor #39 ---
+  Size: 3.2in x 0.0in (2952115 x 13335 EMU)
+  Vertical: relativeFrom='paragraph', offset=270297
+  Horizontal: relativeFrom='page', offset=4352544
+  behindDoc=0, layoutInCell=1
+  In table cell: False
+  Wrap type: wrapNone
+
+--- Anchor #40 ---
+  Size: 0.0in x 2.1in (13335 x 1908175 EMU)
+  Vertical: relativeFrom='paragraph', offset=-425408
+  Horizontal: relativeFrom='page', offset=4021835
+  behindDoc=0, layoutInCell=1
+  In table cell: False
+  Wrap type: wrapNone
+
+--- Anchor #41 ---
+  Size: 3.2in x 0.0in (2952115 x 13335 EMU)
+  Vertical: relativeFrom='paragraph', offset=522697
+  Horizontal: relativeFrom='page', offset=4352544
+  behindDoc=0, layoutInCell=1
+  In table cell: False
+  Wrap type: wrapNone
+
+--- Anchor #42 ---
+  Size: 2.8in x 1.9in (2548890 x 1729739 EMU)
+  Vertical: relativeFrom='paragraph', offset=262521
+  Horizontal: relativeFrom='page', offset=4197997
+  behindDoc=0, layoutInCell=1
+  In table cell: False
+  Wrap type: wrapNone
+
+--- Anchor #43 ---
+  Size: 3.2in x 1.9in (2967355 x 1741805 EMU)
+  Vertical: relativeFrom='paragraph', offset=-1192698
+  Horizontal: relativeFrom='page', offset=568451
+  behindDoc=1, layoutInCell=1
+  In table cell: False
+  Wrap type: wrapNone
+
+--- Anchor #44 ---
+  Size: 0.0in x 10.0in (13335 x 9180195 EMU)
+  Vertical: relativeFrom='page', offset=576072
+  Horizontal: relativeFrom='page', offset=3773423
+  behindDoc=0, layoutInCell=1
+  In table cell: False
+  Wrap type: wrapNone
+
+--- Anchor #45 ---
+  Size: 3.0in x 2.5in (2722245 x 2330450 EMU)
+  Vertical: relativeFrom='paragraph', offset=-2339496
+  Horizontal: relativeFrom='page', offset=740409
+  behindDoc=0, layoutInCell=1
+  In table cell: False
+  Wrap type: wrapNone
+
+--- Anchor #46 ---
+  Size: 0.1in x 0.5in (98425 x 451484 EMU)
+  Vertical: relativeFrom='paragraph', offset=-630410
+  Horizontal: relativeFrom='page', offset=691731
+  behindDoc=1, layoutInCell=1
+  In table cell: False
+  Wrap type: wrapNone
+
+--- Anchor #47 ---
+  Size: 2.9in x 2.6in (2607310 x 2404745 EMU)
+  Vertical: relativeFrom='paragraph', offset=21653
+  Horizontal: relativeFrom='page', offset=4456584
+  behindDoc=0, layoutInCell=1
+  In table cell: False
+  Wrap type: wrapNone
+
+--- Anchor #48 ---
+  Size: 0.4in x 1.0in (351790 x 909955 EMU)
+  Vertical: relativeFrom='paragraph', offset=-1256493
+  Horizontal: relativeFrom='page', offset=940139
+  behindDoc=1, layoutInCell=1
+  In table cell: False
+  Wrap type: wrapNone
+
+--- Anchor #49 ---
+  Size: 3.0in x 2.5in (2722245 x 2331085 EMU)
+  Vertical: relativeFrom='paragraph', offset=-2339333
+  Horizontal: relativeFrom='page', offset=988812
+  behindDoc=0, layoutInCell=1
+  In table cell: False
+  Wrap type: wrapNone
+
+--- Anchor #50 ---
+  Size: 2.3in x 2.0in (2094864 x 1802764 EMU)
+  Vertical: relativeFrom='paragraph', offset=25631
+  Horizontal: relativeFrom='page', offset=1264456
+  behindDoc=0, layoutInCell=1
+  In table cell: False
+  Wrap type: wrapNone
+
+--- Anchor #51 ---
+  Size: 2.8in x 2.3in (2555875 x 2114550 EMU)
+  Vertical: relativeFrom='paragraph', offset=109374
+  Horizontal: relativeFrom='page', offset=4445584
+  behindDoc=1, layoutInCell=1
+  In table cell: False
+  Wrap type: wrapNone
+
+--- Anchor #52 ---
+  Size: 0.0in x 10.0in (13335 x 9180195 EMU)
+  Vertical: relativeFrom='page', offset=576072
+  Horizontal: relativeFrom='page', offset=4021835
+  behindDoc=0, layoutInCell=1
+  In table cell: False
+  Wrap type: wrapNone
+
+--- Anchor #53 ---
+  Size: 2.5in x 1.7in (2281555 x 1509395 EMU)
+  Vertical: relativeFrom='paragraph', offset=-1509582
+  Horizontal: relativeFrom='page', offset=4579899
+  behindDoc=0, layoutInCell=1
+  In table cell: False
+  Wrap type: wrapNone
+
+--- Anchor #54 ---
+  Size: 0.0in x 1.1in (13335 x 961390 EMU)
+  Vertical: relativeFrom='paragraph', offset=-269214
+  Horizontal: relativeFrom='page', offset=3773423
+  behindDoc=0, layoutInCell=1
+  In table cell: False
+  Wrap type: wrapNone
+
+--- Anchor #55 ---
+  Size: 5.7in x 5.9in (5245735 x 5389245 EMU)
+  Vertical: relativeFrom='paragraph', offset=-5414335
+  Horizontal: relativeFrom='page', offset=1139405
+  behindDoc=0, layoutInCell=1
+  In table cell: False
+  Wrap type: wrapNone
+
+--- Anchor #56 ---
+  Size: 0.1in x 0.2in (127000 x 148590 EMU)
+  Vertical: relativeFrom='paragraph', offset=-646397
+  Horizontal: relativeFrom='page', offset=5711498
+  behindDoc=0, layoutInCell=1
+  In table cell: False
+  Wrap type: wrapNone
+
+--- Anchor #57 ---
+  Size: 0.1in x 0.2in (127000 x 148590 EMU)
+  Vertical: relativeFrom='paragraph', offset=-1113560
+  Horizontal: relativeFrom='page', offset=5645419
+  behindDoc=0, layoutInCell=1
+  In table cell: False
+  Wrap type: wrapNone
+
+--- Anchor #58 ---
+  Size: 0.1in x 0.2in (127000 x 148590 EMU)
+  Vertical: relativeFrom='paragraph', offset=-1271338
+  Horizontal: relativeFrom='page', offset=4096246
+  behindDoc=0, layoutInCell=1
+  In table cell: False
+  Wrap type: wrapNone
+
+--- Anchor #59 ---
+  Size: 0.2in x 0.2in (204470 x 165100 EMU)
+  Vertical: relativeFrom='paragraph', offset=34746
+  Horizontal: relativeFrom='column', offset=109727
+  behindDoc=1, layoutInCell=1
+  In table cell: True
+  Wrap type: wrapNone
+
+--- Anchor #60 ---
+  Size: 0.1in x 0.1in (109855 x 109855 EMU)
+  Vertical: relativeFrom='paragraph', offset=9600
+  Horizontal: relativeFrom='column', offset=102107
+  behindDoc=1, layoutInCell=1
+  In table cell: True
+  Wrap type: wrapNone
+
+--- Anchor #61 ---
+  Size: 0.2in x 0.2in (204470 x 165100 EMU)
+  Vertical: relativeFrom='paragraph', offset=34746
+  Horizontal: relativeFrom='column', offset=289559
+  behindDoc=1, layoutInCell=1
+  In table cell: True
+  Wrap type: wrapNone
+
+--- Anchor #62 ---
+  Size: 0.2in x 0.2in (204470 x 165100 EMU)
+  Vertical: relativeFrom='paragraph', offset=34746
+  Horizontal: relativeFrom='column', offset=109727
+  behindDoc=1, layoutInCell=1
+  In table cell: True
+  Wrap type: wrapNone
+
+--- Anchor #63 ---
+  Size: 0.1in x 0.1in (109855 x 109855 EMU)
+  Vertical: relativeFrom='paragraph', offset=9600
+  Horizontal: relativeFrom='column', offset=102107
+  behindDoc=1, layoutInCell=1
+  In table cell: True
+  Wrap type: wrapNone
+
+--- Anchor #64 ---
+  Size: 0.2in x 0.2in (204470 x 165100 EMU)
+  Vertical: relativeFrom='paragraph', offset=34746
+  Horizontal: relativeFrom='column', offset=289559
+  behindDoc=1, layoutInCell=1
+  In table cell: True
+  Wrap type: wrapNone
+
+--- Anchor #65 ---
+  Size: 0.0in x 0.6in (13335 x 570230 EMU)
+  Vertical: relativeFrom='paragraph', offset=96937
+  Horizontal: relativeFrom='page', offset=3773423
+  behindDoc=0, layoutInCell=1
+  In table cell: False
+  Wrap type: wrapNone
+
+--- Anchor #66 ---
+  Size: 0.1in x 0.2in (127000 x 148590 EMU)
+  Vertical: relativeFrom='page', offset=6056406
+  Horizontal: relativeFrom='page', offset=3320421
+  behindDoc=0, layoutInCell=1
+  In table cell: False
+  Wrap type: wrapNone
+
+--- Anchor #67 ---
+  Size: 2.9in x 1.6in (2632075 x 1461770 EMU)
+  Vertical: relativeFrom='paragraph', offset=251071
+  Horizontal: relativeFrom='page', offset=4399090
+  behindDoc=1, layoutInCell=1
+  In table cell: False
+  Wrap type: wrapNone
+
+--- Anchor #68 ---
+  Size: 2.4in x 1.4in (2168525 x 1268730 EMU)
+  Vertical: relativeFrom='paragraph', offset=60076
+  Horizontal: relativeFrom='page', offset=1262941
+  behindDoc=0, layoutInCell=1
+  In table cell: False
+  Wrap type: wrapNone
+
+--- Anchor #69 ---
+  Size: 2.9in x 2.3in (2674620 x 2139950 EMU)
+  Vertical: relativeFrom='paragraph', offset=-155700
+  Horizontal: relativeFrom='page', offset=4374781
+  behindDoc=1, layoutInCell=1
+  In table cell: False
+  Wrap type: wrapNone
+
+--- Anchor #70 ---
+  Size: 2.9in x 1.4in (2632075 x 1261745 EMU)
+  Vertical: relativeFrom='paragraph', offset=-73040
+  Horizontal: relativeFrom='page', offset=979158
+  behindDoc=0, layoutInCell=1
+  In table cell: False
+  Wrap type: wrapNone
+
+--- Anchor #71 ---
+  Size: 2.9in x 2.3in (2674620 x 2139950 EMU)
+  Vertical: relativeFrom='paragraph', offset=-1212593
+  Horizontal: relativeFrom='page', offset=954824
+  behindDoc=1, layoutInCell=1
+  In table cell: False
+  Wrap type: wrapNone
+
+--- Anchor #72 ---
+  Size: 2.9in x 1.8in (2628900 x 1667510 EMU)
+  Vertical: relativeFrom='paragraph', offset=-720354
+  Horizontal: relativeFrom='page', offset=4342803
+  behindDoc=0, layoutInCell=1
+  In table cell: False
+  Wrap type: wrapNone
+
+--- Anchor #73 ---
+  Size: 0.0in x 10.0in (13335 x 9180195 EMU)
+  Vertical: relativeFrom='page', offset=576072
+  Horizontal: relativeFrom='page', offset=4021835
+  behindDoc=1, layoutInCell=1
+  In table cell: False
+  Wrap type: wrapNone
+
+--- Anchor #74 ---
+  Size: 2.6in x 2.0in (2393315 x 1858645 EMU)
+  Vertical: relativeFrom='paragraph', offset=-1606984
+  Horizontal: relativeFrom='page', offset=4248899
+  behindDoc=1, layoutInCell=1
+  In table cell: False
+  Wrap type: wrapNone
+
+--- Anchor #75 ---
+  Size: 2.9in x 1.4in (2632075 x 1261745 EMU)
+  Vertical: relativeFrom='paragraph', offset=-72745
+  Horizontal: relativeFrom='page', offset=730746
+  behindDoc=0, layoutInCell=1
+  In table cell: False
+  Wrap type: wrapNone
+
+--- Anchor #76 ---
+  Size: 2.8in x 1.9in (2598420 x 1740535 EMU)
+  Vertical: relativeFrom='paragraph', offset=-100491
+  Horizontal: relativeFrom='page', offset=4199216
+  behindDoc=0, layoutInCell=1
+  In table cell: False
+  Wrap type: wrapNone
+
+--- Anchor #77 ---
+  Size: 1.5in x 1.0in (1414780 x 946785 EMU)
+  Vertical: relativeFrom='paragraph', offset=-200054
+  Horizontal: relativeFrom='page', offset=1351025
+  behindDoc=0, layoutInCell=1
+  In table cell: False
+  Wrap type: wrapNone
+
+--- Anchor #78 ---
+  Size: 3.4in x 0.2in (3102610 x 146050 EMU)
+  Vertical: relativeFrom='paragraph', offset=66974
+  Horizontal: relativeFrom='page', offset=3921251
+  behindDoc=1, layoutInCell=1
+  In table cell: False
+  Wrap type: wrapTopAndBottom
+
+--- Anchor #79 ---
+  Size: 0.0in x 10.0in (13335 x 9180195 EMU)
+  Vertical: relativeFrom='page', offset=576072
+  Horizontal: relativeFrom='page', offset=3773423
+  behindDoc=1, layoutInCell=1
+  In table cell: False
+  Wrap type: wrapNone
+
+--- Anchor #80 ---
+  Size: 0.0in x 2.4in (13335 x 2183130 EMU)
+  Vertical: relativeFrom='paragraph', offset=-2008377
+  Horizontal: relativeFrom='page', offset=4021835
+  behindDoc=0, layoutInCell=1
+  In table cell: False
+  Wrap type: wrapNone
+
+--- Anchor #81 ---
+  Size: 6.7in x 0.0in (6156325 x 13335 EMU)
+  Vertical: relativeFrom='paragraph', offset=285496
+  Horizontal: relativeFrom='page', offset=932688
+  behindDoc=1, layoutInCell=1
+  In table cell: False
+  Wrap type: wrapTopAndBottom
+
+--- Anchor #82 ---
+  Size: 6.7in x 0.0in (6156325 x 13335 EMU)
+  Vertical: relativeFrom='paragraph', offset=65443
+  Horizontal: relativeFrom='page', offset=932688
+  behindDoc=1, layoutInCell=1
+  In table cell: False
+  Wrap type: wrapTopAndBottom
+
+--- Anchor #83 ---
+  Size: 1.0in x 1.1in (891540 x 1034415 EMU)
+  Vertical: relativeFrom='paragraph', offset=56530
+  Horizontal: relativeFrom='column', offset=2010845
+  behindDoc=1, layoutInCell=1
+  In table cell: True
+  Wrap type: wrapNone
+
+--- Anchor #84 ---
+  Size: 1.5in x 0.8in (1388110 x 762000 EMU)
+  Vertical: relativeFrom='paragraph', offset=54698
+  Horizontal: relativeFrom='column', offset=1786210
+  behindDoc=1, layoutInCell=1
+  In table cell: True
+  Wrap type: wrapNone
+
+--- Anchor #85 ---
+  Size: 1.5in x 0.8in (1339215 x 776605 EMU)
+  Vertical: relativeFrom='paragraph', offset=32993
+  Horizontal: relativeFrom='column', offset=1801494
+  behindDoc=1, layoutInCell=1
+  In table cell: True
+  Wrap type: wrapNone
+
+--- Anchor #86 ---
+  Size: 1.2in x 0.8in (1108075 x 688340 EMU)
+  Vertical: relativeFrom='paragraph', offset=59657
+  Horizontal: relativeFrom='column', offset=1925520
+  behindDoc=1, layoutInCell=1
+  In table cell: True
+  Wrap type: wrapNone
+
+Total inline images: 20
+Total VML images: 115
+  VML Image #1 style: position:absolute;left:0;top:600;width:3438;height:2863
+  VML Image #2 style: position:absolute;left:1568;top:338;width:182;height:269
+  VML Image #3 style: position:absolute;left:1775;top:482;width:263;height:191
+  VML Image #4 style: position:absolute;left:1763;top:809;width:182;height:434
+  VML Image #5 style: position:absolute;left:1096;top:229;width:184;height:164

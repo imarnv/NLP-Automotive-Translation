@@ -4,6 +4,7 @@ import FileUpload from './components/FileUpload';
 import LanguageSelector from './components/LanguageSelector';
 import TranslateButton from './components/TranslateButton';
 import DownloadPanel from './components/DownloadPanel';
+import EvaluationPanel from './components/EvaluationPanel';
 
 function App() {
   const [showMainUI, setShowMainUI] = useState(false);
@@ -40,12 +41,13 @@ function App() {
     try {
       const formData = new FormData();
       formData.append('file', files[0]);
-      // Use the first selected language for now (assuming single selection flow for MVP)
-      // If multiple, would need loop. UI suggests multiple selection possible but backend takes one string.
-      // Logic: Pick the first or join them? Backend expects single "Tamil" or "Hindi".
-      // Let's pick the first one.
+      // Detect output format from file extension
+      const fileName = files[0].name.toLowerCase();
+      const isXml = fileName.endsWith('.xml');
+      const outputFormat = isXml ? 'xml' : 'pdf';
+      // Use the first selected language
       formData.append('target_lang', selectedLanguages[0]);
-      formData.append('output_format', 'pdf');
+      formData.append('output_format', outputFormat);
 
       const response = await fetch('http://localhost:8000/translate', {
         method: 'POST',
@@ -127,9 +129,20 @@ function App() {
                     progress={progress}
                   />
                 </section>
+
+                {/* Evaluation Section */}
+                <section className="mt-8">
+                  <EvaluationPanel />
+                </section>
               </div>
             ) : (
-              <DownloadPanel onReset={handleReset} downloadUrl={downloadUrl} />
+              <DownloadPanel
+                onReset={handleReset}
+                downloadUrl={downloadUrl}
+                outputFormat={files.length > 0 && files[0].name.toLowerCase().endsWith('.xml') ? 'XML' : 'PDF'}
+                originalFilename={files.length > 0 ? files[0].name : ''}
+                targetLang={selectedLanguages.length > 0 ? selectedLanguages[0] : ''}
+              />
             )}
           </div>
         </main>

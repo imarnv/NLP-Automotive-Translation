@@ -1,0 +1,1983 @@
+DrawingML textboxes: 126
+VML textboxes: 126
+mc:AlternateContent total: 93
+mc:AlternateContent with textboxes: 41
+
+=== AC #0: VVT actuator | Intake camshaft | Exhaust camshaft | Cylinder wall | Piston | Crankshaft pin - Connecting rodPiston cooli
+  DrawML ext: cx=6095365 cy=5653405
+  DrawML ext: cx=2037714 cy=238760
+  DrawML ext: cx=767080 cy=303530
+  DrawML ext: cx=6089015 cy=227329
+  DrawML ext: cx=394335 cy=1270
+  DrawML ext: cx=394335 cy=1270
+  DrawML ext: cx=60325 cy=46355
+  DrawML ext: cx=394335 cy=1270
+  DrawML ext: cx=60325 cy=46355
+  DrawML ext: cx=394335 cy=1270
+  DrawML ext: cx=60325 cy=46355
+  DrawML ext: cx=503555 cy=1270
+  DrawML ext: cx=60325 cy=46355
+  DrawML ext: cx=495934 cy=1270
+  DrawML ext: cx=2524760 cy=2081530
+  DrawML ext: cx=398145 cy=1270
+  DrawML ext: cx=73025 cy=56515
+  DrawML ext: cx=2302510 cy=280670
+  DrawML ext: cx=832485 cy=137160
+  DrawML ext: cx=832485 cy=1270
+  DrawML ext: cx=879475 cy=137160
+  DrawML ext: cx=879475 cy=1270
+  DrawML ext: cx=1162050 cy=140335
+  DrawML ext: cx=666115 cy=128905
+  DrawML ext: cx=1162050 cy=506095
+  DrawML ext: cx=1270 cy=162560
+  DrawML ext: cx=1270 cy=162560
+  DrawML ext: cx=46355 cy=60325
+  DrawML ext: cx=1270 cy=187960
+  DrawML ext: cx=1270 cy=187960
+  DrawML ext: cx=46355 cy=60325
+  DrawML ext: cx=1197610 cy=5387975
+  DrawML ext: cx=1198245 cy=1270
+  DrawML ext: cx=46355 cy=60325
+  DrawML ext: cx=1024255 cy=4276090
+  DrawML ext: cx=46355 cy=60325
+  DrawML ext: cx=474345 cy=1270
+  DrawML ext: cx=1200150 cy=1270
+  DrawML ext: cx=394335 cy=1270
+  DrawML ext: cx=73025 cy=56515
+  DrawML ext: cx=1270 cy=858519
+  DrawML ext: cx=56515 cy=73025
+  DrawML ext: cx=1270 cy=126364
+  DrawML ext: cx=56515 cy=73025
+  DrawML ext: cx=1270 cy=200025
+  DrawML ext: cx=56515 cy=73025
+  DrawML ext: cx=1270 cy=145415
+  DrawML ext: cx=808990 cy=732155
+  DrawML ext: cx=1270 cy=1522730
+  DrawML ext: cx=417195 cy=551815
+  DrawML ext: cx=1270 cy=153670
+  DrawML ext: cx=56515 cy=73025
+  DrawML ext: cx=1270 cy=128905
+  DrawML ext: cx=56515 cy=73025
+  DrawML ext: cx=1270 cy=140970
+  DrawML ext: cx=56515 cy=73025
+  DrawML ext: cx=1270 cy=140970
+  DrawML ext: cx=56515 cy=73025
+  DrawML ext: cx=1270 cy=276860
+  DrawML ext: cx=930910 cy=599440
+  DrawML ext: cx=1270 cy=137795
+  DrawML ext: cx=56515 cy=73025
+  DrawML ext: cx=1270 cy=184785
+  DrawML ext: cx=56515 cy=73025
+  DrawML ext: cx=492759 cy=1270
+  DrawML ext: cx=73025 cy=56515
+  DrawML ext: cx=1270 cy=179705
+  DrawML ext: cx=56515 cy=73025
+  DrawML ext: cx=1270 cy=203200
+  DrawML ext: cx=1270 cy=669290
+  DrawML ext: cx=1270 cy=650240
+  DrawML ext: cx=1270 cy=229235
+  DrawML ext: cx=2216150 cy=1270
+  DrawML ext: cx=1270 cy=575945
+  DrawML ext: cx=471805 cy=1270
+  DrawML ext: cx=252095 cy=1270
+  DrawML ext: cx=73025 cy=56515
+  DrawML ext: cx=1580515 cy=1270
+  DrawML ext: cx=104139 cy=1270
+  DrawML ext: cx=308610 cy=1270
+  DrawML ext: cx=423545 cy=1270
+  DrawML ext: cx=403225 cy=1270
+  DrawML ext: cx=121920 cy=1270
+  DrawML ext: cx=1270 cy=182880
+  DrawML ext: cx=46355 cy=60325
+  DrawML ext: cx=1270 cy=193675
+  DrawML ext: cx=1270 cy=193675
+  DrawML ext: cx=46355 cy=60325
+  DrawML ext: cx=1270 cy=193675
+  DrawML ext: cx=1270 cy=193675
+  DrawML ext: cx=46355 cy=60325
+  DrawML ext: cx=1270 cy=612775
+  DrawML ext: cx=1270 cy=612775
+  DrawML ext: cx=46355 cy=60325
+  DrawML ext: cx=1270 cy=612775
+  DrawML ext: cx=1270 cy=612775
+  DrawML ext: cx=46355 cy=60325
+  DrawML ext: cx=1270 cy=193675
+  DrawML ext: cx=1270 cy=193675
+  DrawML ext: cx=46355 cy=60325
+  DrawML ext: cx=146685 cy=1270
+  DrawML ext: cx=146685 cy=1270
+  DrawML ext: cx=60325 cy=46355
+  DrawML ext: cx=1270 cy=203200
+  DrawML ext: cx=1270 cy=193675
+  DrawML ext: cx=46355 cy=60325
+  DrawML ext: cx=251460 cy=1270
+  DrawML ext: cx=402590 cy=1270
+  DrawML ext: cx=353060 cy=1270
+  DrawML ext: cx=467359 cy=1270
+  DrawML ext: cx=56515 cy=73025
+  DrawML ext: cx=1270 cy=162560
+  DrawML ext: cx=1270 cy=151130
+  DrawML ext: cx=1270 cy=92710
+  DrawML ext: cx=1270 cy=93345
+  DrawML ext: cx=1270 cy=609600
+  DrawML ext: cx=944880 cy=73025
+  DrawML ext: cx=1270 cy=147955
+  DrawML ext: cx=530225 cy=118745
+  DrawML ext: cx=640715 cy=118745
+  DrawML ext: cx=719455 cy=118745
+  DrawML ext: cx=516890 cy=118745
+  DrawML ext: cx=260350 cy=118745
+  DrawML ext: cx=2174240 cy=119380
+  DrawML ext: cx=734695 cy=118745
+  DrawML ext: cx=1085215 cy=118745
+  DrawML ext: cx=1134745 cy=118745
+  DrawML ext: cx=294640 cy=118745
+  DrawML ext: cx=1054735 cy=257810
+  DrawML ext: cx=863600 cy=137160
+  DrawML ext: cx=616585 cy=142240
+  DrawML ext: cx=367665 cy=136525
+  DrawML ext: cx=616585 cy=144780
+  DrawML ext: cx=426084 cy=127635
+  DrawML ext: cx=616585 cy=141605
+  DrawML ext: cx=635635 cy=222250
+  DrawML ext: cx=766445 cy=137160
+  DrawML ext: cx=766445 cy=168275
+  DrawML ext: cx=766445 cy=168275
+  DrawML ext: cx=635635 cy=247650
+  DrawML ext: cx=678180 cy=484505
+  DrawML ext: cx=596265 cy=497205
+  DrawML ext: cx=1697989 cy=229870
+  DrawML ext: cx=757555 cy=118745
+  DrawML ext: cx=739775 cy=118745
+  DrawML ext: cx=965200 cy=119380
+  DrawML ext: cx=314325 cy=118745
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  VML style: position:absolute;left:5;top:8540;width:9589;height:358
+  VML style: position:absolute;left:7247;top:255;width:95;height:73
+  VML style: position:absolute;left:7247;top:452;width:95;height:73
+  VML style: position:absolute;left:7247;top:650;width:95;height:73
+  VML style: position:absolute;left:3937;top:7703;width:95;height:73
+  VML style: position:absolute;left:4745;top:1750;width:3976;height:3278
+  VML style: position:absolute;left:6589;top:3666;width:115;height:89
+  VML style: position:absolute;left:2551;top:2471;width:1311;height:216
+  VML style: position:absolute;left:971;top:2471;width:1385;height:216
+  VML style: position:absolute;left:2551;top:11;width:1830;height:797
+  VML style: position:absolute;left:3401;top:820;width:73;height:95
+  VML style: position:absolute;left:3401;top:240;width:73;height:95
+  VML style: position:absolute;left:666;top:118;width:1886;height:8485
+  VML style: position:absolute;left:629;top:8555;width:73;height:95
+  VML style: position:absolute;left:7280;top:1865;width:1613;height:6734
+  VML style: position:absolute;left:8856;top:8557;width:73;height:95
+  VML style: position:absolute;left:7237;top:47;width:115;height:89
+  VML style: position:absolute;left:4899;top:3885;width:89;height:115
+  VML style: position:absolute;left:5387;top:4048;width:89;height:115
+  VML style: position:absolute;left:7816;top:3220;width:89;height:115
+  VML style: position:absolute;left:4191;top:3220;width:1274;height:1153
+  VML style: position:absolute;left:3623;top:1365;width:657;height:869
+  VML style: position:absolute;left:3533;top:3512;width:89;height:115
+  VML style: position:absolute;left:1429;top:3512;width:89;height:115
+  VML style: position:absolute;left:3266;top:6680;width:89;height:115
+  VML style: position:absolute;left:3266;top:7240;width:89;height:115
+  VML style: position:absolute;left:1890;top:5653;width:1466;height:944
+  VML style: position:absolute;left:3266;top:7799;width:89;height:115
+  VML style: position:absolute;left:3266;top:8299;width:89;height:115
+  VML style: position:absolute;left:4659;top:7557;width:115;height:89
+  VML style: position:absolute;left:1048;top:2119;width:89;height:115
+  VML style: position:absolute;left:5289;top:4716;width:115;height:89
+  VML style: position:absolute;left:1556;top:2363;width:73;height:95
+  VML style: position:absolute;left:7824;top:2642;width:73;height:95
+  VML style: position:absolute;left:7018;top:2642;width:73;height:95
+  VML style: position:absolute;left:6657;top:1982;width:73;height:95
+  VML style: position:absolute;left:6045;top:1982;width:73;height:95
+  VML style: position:absolute;left:5375;top:2642;width:73;height:95
+  VML style: position:absolute;left:6953;top:4723;width:95;height:73
+  VML style: position:absolute;left:3261;top:2363;width:73;height:95
+  VML style: position:absolute;left:1308;top:2689;width:89;height:115
+  VML style: position:absolute;left:2093;top:2689;width:1488;height:115
+  VML style: position:absolute;left:3149;top:1922;width:835;height:187
+  VML style: position:absolute;left:1136;top:2480;width:1009;height:187
+  VML style: position:absolute;left:2651;top:2480;width:1133;height:187
+  VML style: position:absolute;left:5016;top:2423;width:814;height:187
+  VML style: position:absolute;left:7323;top:2420;width:410;height:187
+  VML style: position:absolute;left:5107;top:3011;width:3424;height:188
+  VML style: position:absolute;left:4807;top:3608;width:1157;height:187
+  VML style: position:absolute;left:6794;top:3613;width:1709;height:187
+  VML style: position:absolute;left:2968;top:5385;width:1787;height:187
+  VML style: position:absolute;left:4585;top:8677;width:464;height:187
+  VML style: position:absolute;left:7055;top:4617;width:1661;height:406
+  VML style: position:absolute;left:5395;top:4640;width:1360;height:216
+  VML style: position:absolute;left:977;top:3286;width:971;height:224
+  VML style: position:absolute;left:977;top:3072;width:579;height:215
+  VML style: position:absolute;left:3131;top:3286;width:971;height:228
+  VML style: position:absolute;left:3131;top:3085;width:671;height:201
+  VML style: position:absolute;left:906;top:1893;width:971;height:223
+  VML style: position:absolute;left:4779;top:7486;width:1001;height:350
+  VML style: position:absolute;left:2726;top:8079;width:1207;height:216
+  VML style: position:absolute;left:2726;top:7528;width:1207;height:265
+  VML style: position:absolute;left:2726;top:6968;width:1207;height:265
+  VML style: position:absolute;left:885;top:6234;width:1001;height:390
+  VML style: position:absolute;left:2965;top:33;width:1068;height:763
+  VML style: position:absolute;left:7473;top:0;width:939;height:783
+  VML style: position:absolute;left:1391;top:3858;width:2674;height:362
+  VML style: position:absolute;left:2919;top:1156;width:1193;height:187
+  VML style: position:absolute;left:5153;top:4173;width:1165;height:187
+  VML style: position:absolute;left:5683;top:1761;width:1520;height:188
+  VML style: position:absolute;left:3110;top:6333;width:495;height:187
+
+=== AC #1: (A) | (B)
+  DrawML ext: cx=2183130 cy=2199005
+  DrawML ext: cx=2182939 cy=1817497
+  DrawML ext: cx=237490 cy=518159
+  DrawML ext: cx=237490 cy=518159
+  DrawML ext: cx=56515 cy=10160
+  DrawML ext: cx=53340 cy=10160
+  DrawML ext: cx=457200 cy=721360
+  DrawML ext: cx=115430 cy=170548
+  DrawML ext: cx=138430 cy=130175
+  DrawML ext: cx=381000 cy=261620
+  DrawML ext: cx=334645 cy=280035
+  DrawML ext: cx=167004 cy=121259
+  DrawML ext: cx=456565 cy=457200
+  DrawML ext: cx=456565 cy=201295
+  DrawML ext: cx=27940 cy=18415
+  DrawML ext: cx=115569 cy=275158
+  DrawML ext: cx=40640 cy=269240
+  DrawML ext: cx=13335 cy=270510
+  DrawML ext: cx=83820 cy=22225
+  DrawML ext: cx=223520 cy=195580
+  DrawML ext: cx=223520 cy=195580
+  DrawML ext: cx=223520 cy=195580
+  DrawML ext: cx=223520 cy=195580
+  DrawML ext: cx=281940 cy=158115
+  DrawML ext: cx=281940 cy=158115
+  DrawML ext: cx=281940 cy=158115
+  DrawML ext: cx=281940 cy=158115
+  DrawML ext: cx=131445 cy=118745
+  DrawML ext: cx=131445 cy=118745
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  VML style: position:absolute;left:0;top:600;width:3438;height:2863
+  VML style: position:absolute;left:1784;top:1217;width:374;height:816
+  VML style: position:absolute;left:1784;top:1217;width:374;height:816
+  VML style: position:absolute;left:2013;top:1925;width:89;height:16
+  VML style: position:absolute;left:1509;top:102;width:720;height:1136
+  VML style: position:absolute;left:1568;top:338;width:182;height:269
+  VML style: position:absolute;left:1951;top:326;width:218;height:205
+  VML style: position:absolute;left:1570;top:179;width:600;height:412
+  VML style: position:absolute;left:1608;top:348;width:527;height:441
+  VML style: position:absolute;left:1775;top:482;width:263;height:191
+  VML style: position:absolute;left:1510;top:99;width:719;height:720
+  VML style: position:absolute;left:1510;top:119;width:719;height:317
+  VML style: position:absolute;left:1852;top:126;width:44;height:29
+  VML style: position:absolute;left:1763;top:809;width:182;height:434
+  VML style: position:absolute;left:1876;top:813;width:64;height:424
+  VML style: position:absolute;left:1766;top:809;width:21;height:426
+  VML style: position:absolute;left:1769;top:1204;width:132;height:35
+  VML style: position:absolute;left:2073;top:1657;width:352;height:308
+  VML style: position:absolute;left:2073;top:1657;width:352;height:308
+  VML style: position:absolute;left:2175;top:187;width:444;height:249
+  VML style: position:absolute;left:2175;top:187;width:444;height:249
+  VML style: position:absolute;left:2628;top:0;width:207;height:187
+  VML style: position:absolute;left:2433;top:1469;width:207;height:187
+
+=== AC #2: !
+  DrawML ext: cx=116839 cy=108585
+  DrawML ext: cx=116839 cy=103631
+  DrawML ext: cx=116839 cy=108585
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  VML style: position:absolute;left:1096;top:229;width:184;height:164
+  VML style: position:absolute;left:1096;top:229;width:184;height:171
+
+=== AC #3: 1, (a)
+  DrawML ext: cx=2026920 cy=1649730
+  DrawML ext: cx=1971065 cy=1418469
+  DrawML ext: cx=178435 cy=325120
+  DrawML ext: cx=178435 cy=325120
+  DrawML ext: cx=248285 cy=118110
+  DrawML ext: cx=213995 cy=118745
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  VML style: position:absolute;left:7109;top:30;width:3105;height:2234
+  VML style: position:absolute;left:7068;top:2431;width:337;height:187
+
+=== AC #4: (A)
+  DrawML ext: cx=2693035 cy=1846580
+  DrawML ext: cx=2692654 cy=1846224
+  DrawML ext: cx=564870 cy=575678
+  DrawML ext: cx=1721446 cy=603437
+  DrawML ext: cx=116205 cy=106680
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  VML style: position:absolute;left:6497;top:-2909;width:4241;height:2908
+  VML style: position:absolute;left:8305;top:-2107;width:890;height:907
+  VML style: position:absolute;left:6511;top:-2109;width:2711;height:951
+  VML style: position:absolute;left:7769;top:-2111;width:183;height:168
+
+=== AC #5: 1, (a) | (A)
+  DrawML ext: cx=2693035 cy=1845945
+  DrawML ext: cx=2692831 cy=1845564
+  DrawML ext: cx=564870 cy=575690
+  DrawML ext: cx=2064308 cy=729293
+  DrawML ext: cx=194310 cy=106680
+  DrawML ext: cx=116205 cy=106680
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  VML style: position:absolute;left:1502;top:-2909;width:4241;height:2907
+  VML style: position:absolute;left:3311;top:-2108;width:890;height:907
+  VML style: position:absolute;left:1516;top:-2308;width:3251;height:1149
+  VML style: position:absolute;left:4481;top:-2318;width:306;height:168
+  VML style: position:absolute;left:2775;top:-2112;width:183;height:168
+
+=== AC #6: (A) | 1 | 2 | 1 1 | 2 2
+  DrawML ext: cx=2693035 cy=1845945
+  DrawML ext: cx=2692831 cy=1845564
+  DrawML ext: cx=564873 cy=575678
+  DrawML ext: cx=2080023 cy=741434
+  DrawML ext: cx=116205 cy=106680
+  DrawML ext: cx=60960 cy=118745
+  DrawML ext: cx=60960 cy=118745
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  VML style: position:absolute;left:0;top:0;width:4241;height:2907
+  VML style: position:absolute;left:1808;top:801;width:890;height:907
+  VML style: position:absolute;left:13;top:799;width:3276;height:1168
+  VML style: position:absolute;left:1272;top:796;width:183;height:168
+  VML style: position:absolute;left:3009;top:1083;width:96;height:187
+  VML style: position:absolute;left:3153;top:1663;width:96;height:187
+
+=== AC #7: 2 | 1 | 2 2 | 1 1
+  DrawML ext: cx=1416685 cy=1731645
+  DrawML ext: cx=1416691 cy=1469660
+  DrawML ext: cx=322580 cy=182245
+  DrawML ext: cx=322580 cy=182245
+  DrawML ext: cx=123189 cy=123189
+  DrawML ext: cx=322580 cy=182245
+  DrawML ext: cx=322580 cy=182245
+  DrawML ext: cx=123189 cy=123189
+  DrawML ext: cx=60960 cy=118745
+  DrawML ext: cx=60960 cy=118745
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  VML style: position:absolute;left:2048;top:201;width:2231;height:2315
+  VML style: position:absolute;left:2656;top:2742;width:96;height:187
+  VML style: position:absolute;left:2790;top:2604;width:96;height:187
+
+=== AC #8: 1 | 1 1
+  DrawML ext: cx=2597785 cy=2225040
+  DrawML ext: cx=2597569 cy=2224951
+  DrawML ext: cx=245110 cy=163195
+  DrawML ext: cx=245110 cy=163195
+  DrawML ext: cx=358564 cy=221565
+  DrawML ext: cx=62230 cy=118745
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  VML style: position:absolute;left:6572;top:-2224;width:4091;height:3504
+  VML style: position:absolute;left:9376;top:-968;width:386;height:257
+  VML style: position:absolute;left:9371;top:-1056;width:565;height:349
+  VML style: position:absolute;left:9806;top:-1057;width:98;height:187
+
+=== AC #9: 2. LOW level mark (hole) | 2. LOW level mark (होल)
+  DrawML ext: cx=1548765 cy=139700
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  VML style: position:absolute;margin-left:100.620003pt;margin-top:5.534151pt;width:182.9pt;height:11pt;mso-position-horizontal-relative:page;mso-position-vertical-relative:paragraph;z-index:-15719936;mso-wrap-dis
+
+=== AC #10: 1 | 3 | 2 | 1 1 | 3 3 | 2 2
+  DrawML ext: cx=2515870 cy=2654935
+  DrawML ext: cx=2515666 cy=2154796
+  DrawML ext: cx=340822 cy=227919
+  DrawML ext: cx=1626235 cy=1544320
+  DrawML ext: cx=1626235 cy=1544320
+  DrawML ext: cx=1626235 cy=1544320
+  DrawML ext: cx=286385 cy=220979
+  DrawML ext: cx=241223 cy=227075
+  DrawML ext: cx=846455 cy=1270
+  DrawML ext: cx=55244 cy=55244
+  DrawML ext: cx=55244 cy=55244
+  DrawML ext: cx=55244 cy=55244
+  DrawML ext: cx=55244 cy=55244
+  DrawML ext: cx=55244 cy=55244
+  DrawML ext: cx=55244 cy=55244
+  DrawML ext: cx=55244 cy=55244
+  DrawML ext: cx=55244 cy=55244
+  DrawML ext: cx=55244 cy=55244
+  DrawML ext: cx=55244 cy=55244
+  DrawML ext: cx=55244 cy=55244
+  DrawML ext: cx=55244 cy=55244
+  DrawML ext: cx=55244 cy=55244
+  DrawML ext: cx=55244 cy=55244
+  DrawML ext: cx=55244 cy=55244
+  DrawML ext: cx=55244 cy=55244
+  DrawML ext: cx=55244 cy=55244
+  DrawML ext: cx=55244 cy=55244
+  DrawML ext: cx=55244 cy=55244
+  DrawML ext: cx=55244 cy=55244
+  DrawML ext: cx=55244 cy=55244
+  DrawML ext: cx=325120 cy=415290
+  DrawML ext: cx=248323 cy=175526
+  DrawML ext: cx=232410 cy=659130
+  DrawML ext: cx=1270 cy=135255
+  DrawML ext: cx=82397 cy=80733
+  DrawML ext: cx=85725 cy=1270
+  DrawML ext: cx=378091 cy=135115
+  DrawML ext: cx=425450 cy=252095
+  DrawML ext: cx=392430 cy=115570
+  DrawML ext: cx=85725 cy=1270
+  DrawML ext: cx=168910 cy=1270
+  DrawML ext: cx=169545 cy=1270
+  DrawML ext: cx=1270 cy=24765
+  DrawML ext: cx=1270 cy=26034
+  DrawML ext: cx=281940 cy=221615
+  DrawML ext: cx=1270 cy=220979
+  DrawML ext: cx=1270 cy=218440
+  DrawML ext: cx=29845 cy=168275
+  DrawML ext: cx=1270 cy=97155
+  DrawML ext: cx=34290 cy=161290
+  DrawML ext: cx=34290 cy=161290
+  DrawML ext: cx=41910 cy=41910
+  DrawML ext: cx=41910 cy=41910
+  DrawML ext: cx=41910 cy=41910
+  DrawML ext: cx=41910 cy=41910
+  DrawML ext: cx=31115 cy=57150
+  DrawML ext: cx=25400 cy=40005
+  DrawML ext: cx=83820 cy=163830
+  DrawML ext: cx=83820 cy=163830
+  DrawML ext: cx=61594 cy=114935
+  DrawML ext: cx=61594 cy=114935
+  DrawML ext: cx=63500 cy=122555
+  DrawML ext: cx=63500 cy=122555
+  DrawML ext: cx=57785 cy=67310
+  DrawML ext: cx=66675 cy=78105
+  DrawML ext: cx=66675 cy=78105
+  DrawML ext: cx=88900 cy=166370
+  DrawML ext: cx=97155 cy=180975
+  DrawML ext: cx=97155 cy=180975
+  DrawML ext: cx=62230 cy=118745
+  DrawML ext: cx=62230 cy=118745
+  DrawML ext: cx=62230 cy=118745
+  DrawML ext: cx=62230 cy=118745
+  DrawML ext: cx=511809 cy=391160
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  VML style: position:absolute;left:1250;top:560;width:3962;height:3394
+  VML style: position:absolute;left:3987;top:1717;width:537;height:359
+  VML style: position:absolute;left:1299;top:-197;width:2561;height:2432
+  VML style: position:absolute;left:1299;top:-197;width:2561;height:2432
+  VML style: position:absolute;left:1299;top:-197;width:2561;height:2432
+  VML style: position:absolute;left:1866;top:11;width:451;height:348
+  VML style: position:absolute;left:1902;top:-20;width:380;height:358
+  VML style: position:absolute;left:2399;top:857;width:512;height:654
+  VML style: position:absolute;left:2456;top:917;width:392;height:277
+  VML style: position:absolute;left:2131;top:599;width:366;height:1038
+  VML style: position:absolute;left:2578;top:1242;width:130;height:128
+  VML style: position:absolute;left:1625;top:1655;width:596;height:213
+  VML style: position:absolute;left:1588;top:1660;width:670;height:397
+  VML style: position:absolute;left:1609;top:1442;width:618;height:182
+  VML style: position:absolute;left:1688;top:1093;width:444;height:349
+  VML style: position:absolute;left:1968;top:1177;width:47;height:265
+  VML style: position:absolute;left:2770;top:1394;width:66;height:66
+  VML style: position:absolute;left:2770;top:1394;width:66;height:66
+  VML style: position:absolute;left:2465;top:1394;width:66;height:66
+  VML style: position:absolute;left:2465;top:1394;width:66;height:66
+  VML style: position:absolute;left:1994;top:1094;width:49;height:90
+  VML style: position:absolute;left:2022;top:1033;width:40;height:63
+  VML style: position:absolute;left:2025;top:792;width:132;height:258
+  VML style: position:absolute;left:2025;top:792;width:132;height:258
+  VML style: position:absolute;left:2434;top:1871;width:100;height:193
+  VML style: position:absolute;left:1723;top:731;width:98;height:187
+  VML style: position:absolute;left:1426;top:1169;width:98;height:187
+  VML style: position:absolute;left:2551;top:1709;width:98;height:187
+  VML style: position:absolute;left:4394;top:1716;width:98;height:187
+  VML style: position:absolute;left:1688;top:-116;width:806;height:616
+
+=== AC #11: 1 | “A” | 1, (a) | 1 1 | A
+  DrawML ext: cx=2506980 cy=2147570
+  DrawML ext: cx=2506802 cy=2147455
+  DrawML ext: cx=1599565 cy=792480
+  DrawML ext: cx=1599565 cy=792480
+  DrawML ext: cx=1270 cy=189865
+  DrawML ext: cx=29209 cy=29209
+  DrawML ext: cx=1270 cy=95250
+  DrawML ext: cx=148996 cy=418134
+  DrawML ext: cx=384810 cy=471170
+  DrawML ext: cx=128270 cy=434975
+  DrawML ext: cx=1270 cy=95250
+  DrawML ext: cx=1270 cy=187325
+  DrawML ext: cx=1270 cy=187960
+  DrawML ext: cx=57150 cy=57150
+  DrawML ext: cx=83185 cy=83185
+  DrawML ext: cx=91440 cy=91440
+  DrawML ext: cx=91440 cy=91440
+  DrawML ext: cx=91440 cy=91440
+  DrawML ext: cx=91440 cy=91440
+  DrawML ext: cx=66675 cy=66675
+  DrawML ext: cx=38735 cy=38735
+  DrawML ext: cx=27305 cy=1270
+  DrawML ext: cx=28575 cy=1270
+  DrawML ext: cx=245745 cy=312420
+  DrawML ext: cx=245110 cy=1270
+  DrawML ext: cx=241935 cy=1270
+  DrawML ext: cx=186690 cy=33020
+  DrawML ext: cx=1270 cy=33655
+  DrawML ext: cx=1599565 cy=792480
+  DrawML ext: cx=1599565 cy=792480
+  DrawML ext: cx=190500 cy=90170
+  DrawML ext: cx=190500 cy=90170
+  DrawML ext: cx=15875 cy=163830
+  DrawML ext: cx=205104 cy=377190
+  DrawML ext: cx=205104 cy=377190
+  DrawML ext: cx=62230 cy=118745
+  DrawML ext: cx=131445 cy=118745
+  DrawML ext: cx=251460 cy=118745
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  VML style: position:absolute;left:6643;top:-2285;width:3948;height:3382
+  VML style: position:absolute;left:6778;top:-2061;width:2519;height:1248
+  VML style: position:absolute;left:6778;top:-2061;width:2519;height:1248
+  VML style: position:absolute;left:7497;top:-1835;width:235;height:659
+  VML style: position:absolute;left:7502;top:-1877;width:606;height:742
+  VML style: position:absolute;left:7260;top:-1853;width:202;height:685
+  VML style: position:absolute;left:6874;top:-1765;width:387;height:492
+  VML style: position:absolute;left:6967;top:-1456;width:294;height:52
+  VML style: position:absolute;left:6778;top:-2061;width:2519;height:1248
+  VML style: position:absolute;left:6778;top:-2061;width:2519;height:1248
+  VML style: position:absolute;left:6874;top:-2039;width:98;height:187
+  VML style: position:absolute;left:7911;top:-2059;width:207;height:187
+  VML style: position:absolute;left:9651;top:-130;width:396;height:187
+
+=== AC #12: 1 | 10 | (b) | 11 | 4 | 12 | 13 | 6 | 31217G | 7 | 8 | 9 | (a) | (d) | (c) | (e) | 1 1 | 11 11 | 4 4 | 12 12 | 13 13 | 6
+  DrawML ext: cx=3731260 cy=4453255
+  DrawML ext: cx=284480 cy=147320
+  DrawML ext: cx=124269 cy=123532
+  DrawML ext: cx=148564 cy=148577
+  DrawML ext: cx=150027 cy=150025
+  DrawML ext: cx=300990 cy=248285
+  DrawML ext: cx=3216173 cy=4228680
+  DrawML ext: cx=264160 cy=210185
+  DrawML ext: cx=521334 cy=2129790
+  DrawML ext: cx=1905 cy=151130
+  DrawML ext: cx=1270 cy=131445
+  DrawML ext: cx=1270 cy=88265
+  DrawML ext: cx=1270 cy=131445
+  DrawML ext: cx=9525 cy=368300
+  DrawML ext: cx=342912 cy=304812
+  DrawML ext: cx=18415 cy=1704339
+  DrawML ext: cx=1270 cy=47625
+  DrawML ext: cx=10160 cy=935990
+  DrawML ext: cx=1905 cy=142240
+  DrawML ext: cx=192100 cy=111125
+  DrawML ext: cx=470534 cy=2745740
+  DrawML ext: cx=111137 cy=55562
+  DrawML ext: cx=1270 cy=638810
+  DrawML ext: cx=1270 cy=97155
+  DrawML ext: cx=1270 cy=344170
+  DrawML ext: cx=73971 cy=168363
+  DrawML ext: cx=76098 cy=164030
+  DrawML ext: cx=76420 cy=164160
+  DrawML ext: cx=45720 cy=85725
+  DrawML ext: cx=41910 cy=78105
+  DrawML ext: cx=5715 cy=772160
+  DrawML ext: cx=12700 cy=859790
+  DrawML ext: cx=2413635 cy=3308985
+  DrawML ext: cx=142455 cy=102492
+  DrawML ext: cx=434428 cy=324561
+  DrawML ext: cx=313055 cy=170180
+  DrawML ext: cx=284480 cy=147320
+  DrawML ext: cx=124269 cy=123545
+  DrawML ext: cx=299085 cy=170180
+  DrawML ext: cx=299085 cy=170180
+  DrawML ext: cx=284480 cy=147320
+  DrawML ext: cx=124269 cy=123532
+  DrawML ext: cx=121285 cy=259715
+  DrawML ext: cx=121285 cy=259715
+  DrawML ext: cx=121285 cy=259715
+  DrawML ext: cx=121285 cy=259715
+  DrawML ext: cx=278765 cy=263525
+  DrawML ext: cx=278765 cy=263525
+  DrawML ext: cx=278765 cy=263525
+  DrawML ext: cx=278765 cy=263525
+  DrawML ext: cx=201295 cy=364490
+  DrawML ext: cx=201295 cy=364490
+  DrawML ext: cx=201295 cy=364490
+  DrawML ext: cx=201295 cy=364490
+  DrawML ext: cx=428625 cy=295275
+  DrawML ext: cx=428625 cy=295275
+  DrawML ext: cx=428625 cy=295275
+  DrawML ext: cx=428625 cy=295275
+  DrawML ext: cx=226060 cy=175260
+  DrawML ext: cx=226060 cy=175260
+  DrawML ext: cx=226060 cy=175260
+  DrawML ext: cx=226060 cy=175260
+  DrawML ext: cx=212725 cy=163830
+  DrawML ext: cx=212725 cy=163830
+  DrawML ext: cx=212725 cy=163830
+  DrawML ext: cx=212725 cy=163830
+  DrawML ext: cx=246418 cy=316750
+  DrawML ext: cx=192405 cy=256540
+  DrawML ext: cx=192405 cy=256540
+  DrawML ext: cx=192405 cy=256540
+  DrawML ext: cx=192405 cy=256540
+  DrawML ext: cx=284480 cy=147320
+  DrawML ext: cx=124282 cy=123532
+  DrawML ext: cx=148564 cy=148590
+  DrawML ext: cx=300990 cy=248285
+  DrawML ext: cx=150002 cy=150012
+  DrawML ext: cx=269240 cy=75565
+  DrawML ext: cx=300990 cy=248285
+  DrawML ext: cx=150014 cy=150025
+  DrawML ext: cx=654685 cy=248285
+  DrawML ext: cx=124282 cy=123532
+  DrawML ext: cx=258445 cy=163195
+  DrawML ext: cx=150014 cy=150012
+  DrawML ext: cx=284480 cy=147320
+  DrawML ext: cx=124282 cy=123532
+  DrawML ext: cx=166370 cy=76200
+  DrawML ext: cx=284480 cy=147320
+  DrawML ext: cx=124282 cy=123532
+  DrawML ext: cx=343535 cy=215265
+  DrawML ext: cx=284480 cy=147320
+  DrawML ext: cx=124282 cy=123532
+  DrawML ext: cx=148564 cy=148590
+  DrawML ext: cx=161925 cy=39370
+  DrawML ext: cx=1361440 cy=291465
+  DrawML ext: cx=124269 cy=123545
+  DrawML ext: cx=284480 cy=147320
+  DrawML ext: cx=124269 cy=123532
+  DrawML ext: cx=120014 cy=169545
+  DrawML ext: cx=120014 cy=169545
+  DrawML ext: cx=526415 cy=109855
+  DrawML ext: cx=526415 cy=109855
+  DrawML ext: cx=288925 cy=1270
+  DrawML ext: cx=288925 cy=1270
+  DrawML ext: cx=1270 cy=232410
+  DrawML ext: cx=1270 cy=232410
+  DrawML ext: cx=229870 cy=3810
+  DrawML ext: cx=226060 cy=3810
+  DrawML ext: cx=3810 cy=1256030
+  DrawML ext: cx=3810 cy=1266825
+  DrawML ext: cx=3175 cy=424180
+  DrawML ext: cx=3810 cy=404495
+  DrawML ext: cx=999490 cy=2688590
+  DrawML ext: cx=43815 cy=876935
+  DrawML ext: cx=999490 cy=2688590
+  DrawML ext: cx=62230 cy=118745
+  DrawML ext: cx=111760 cy=118745
+  DrawML ext: cx=284480 cy=147320
+  DrawML ext: cx=98425 cy=118745
+  DrawML ext: cx=62230 cy=118745
+  DrawML ext: cx=111760 cy=346710
+  DrawML ext: cx=62230 cy=118745
+  DrawML ext: cx=429259 cy=127000
+  DrawML ext: cx=62230 cy=118745
+  DrawML ext: cx=62230 cy=118745
+  DrawML ext: cx=62230 cy=118745
+  DrawML ext: cx=309245 cy=157480
+  DrawML ext: cx=284480 cy=147320
+  DrawML ext: cx=284480 cy=147320
+  DrawML ext: cx=284480 cy=147320
+  DrawML ext: cx=284480 cy=147320
+  DrawML ext: cx=284480 cy=147320
+  DrawML ext: cx=284480 cy=147320
+  DrawML ext: cx=284480 cy=147320
+  DrawML ext: cx=313055 cy=170180
+  DrawML ext: cx=62230 cy=118745
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  VML style: position:absolute;left:8406;top:-243;width:196;height:195
+  VML style: position:absolute;left:7160;top:-270;width:234;height:234
+  VML style: position:absolute;left:7441;top:-273;width:237;height:237
+  VML style: position:absolute;left:7822;top:-391;width:474;height:391
+  VML style: position:absolute;left:4325;top:-7013;width:5065;height:6660
+  VML style: position:absolute;left:7231;top:-1981;width:416;height:331
+  VML style: position:absolute;left:7499;top:-5334;width:821;height:3354
+  VML style: position:absolute;left:6734;top:-5897;width:15;height:580
+  VML style: position:absolute;left:6044;top:-3518;width:541;height:481
+  VML style: position:absolute;left:4932;top:-4942;width:303;height:175
+  VML style: position:absolute;left:4519;top:-6244;width:741;height:4324
+  VML style: position:absolute;left:4908;top:-4871;width:176;height:88
+  VML style: position:absolute;left:5037;top:-3927;width:117;height:266
+  VML style: position:absolute;left:4716;top:-1921;width:120;height:259
+  VML style: position:absolute;left:4459;top:-1921;width:121;height:259
+  VML style: position:absolute;left:5228;top:-1447;width:72;height:135
+  VML style: position:absolute;left:5120;top:-1232;width:66;height:123
+  VML style: position:absolute;left:4519;top:-6244;width:3801;height:5211
+  VML style: position:absolute;left:5608;top:-3558;width:225;height:162
+  VML style: position:absolute;left:6577;top:-1906;width:685;height:512
+  VML style: position:absolute;left:6862;top:-5706;width:196;height:195
+  VML style: position:absolute;left:5782;top:-3854;width:196;height:195
+  VML style: position:absolute;left:6771;top:-3745;width:191;height:409
+  VML style: position:absolute;left:6771;top:-3745;width:191;height:409
+  VML style: position:absolute;left:6644;top:-558;width:439;height:415
+  VML style: position:absolute;left:6644;top:-558;width:439;height:415
+  VML style: position:absolute;left:5789;top:-1649;width:317;height:574
+  VML style: position:absolute;left:5789;top:-1649;width:317;height:574
+  VML style: position:absolute;left:6532;top:-1339;width:675;height:465
+  VML style: position:absolute;left:6532;top:-1339;width:675;height:465
+  VML style: position:absolute;left:6741;top:-1604;width:356;height:276
+  VML style: position:absolute;left:6741;top:-1604;width:356;height:276
+  VML style: position:absolute;left:4660;top:-887;width:335;height:258
+  VML style: position:absolute;left:4660;top:-887;width:335;height:258
+  VML style: position:absolute;left:5727;top:-3639;width:389;height:499
+  VML style: position:absolute;left:6788;top:-5491;width:303;height:404
+  VML style: position:absolute;left:6788;top:-5491;width:303;height:404
+  VML style: position:absolute;left:7173;top:-3288;width:196;height:195
+  VML style: position:absolute;left:6622;top:-3315;width:234;height:234
+  VML style: position:absolute;left:5331;top:-3177;width:474;height:391
+  VML style: position:absolute;left:5987;top:-3156;width:237;height:237
+  VML style: position:absolute;left:4087;top:-5209;width:474;height:391
+  VML style: position:absolute;left:3720;top:-5132;width:237;height:237
+  VML style: position:absolute;left:3629;top:-823;width:1031;height:391
+  VML style: position:absolute;left:4225;top:-727;width:196;height:195
+  VML style: position:absolute;left:4368;top:-1204;width:237;height:237
+  VML style: position:absolute;left:3765;top:-1715;width:196;height:195
+  VML style: position:absolute;left:3784;top:-1356;width:196;height:195
+  VML style: position:absolute;left:4355;top:-3923;width:196;height:195
+  VML style: position:absolute;left:3804;top:-3950;width:234;height:234
+  VML style: position:absolute;left:5511;top:-1101;width:2144;height:459
+  VML style: position:absolute;left:7220;top:-858;width:196;height:195
+  VML style: position:absolute;left:7100;top:-1406;width:196;height:195
+  VML style: position:absolute;left:6503;top:-3141;width:189;height:267
+  VML style: position:absolute;left:6849;top:-3008;width:829;height:173
+  VML style: position:absolute;left:4776;top:-6154;width:1574;height:4234
+  VML style: position:absolute;left:5015;top:-5944;width:69;height:1381
+  VML style: position:absolute;left:4776;top:-6154;width:1574;height:4234
+  VML style: position:absolute;left:3995;top:-5118;width:98;height:187
+  VML style: position:absolute;left:4107;top:-3917;width:176;height:187
+  VML style: position:absolute;left:8393;top:-260;width:448;height:232
+  VML style: position:absolute;left:6925;top:-3282;width:155;height:187
+  VML style: position:absolute;left:6734;top:-2928;width:98;height:187
+  VML style: position:absolute;left:3544;top:-1702;width:176;height:546
+  VML style: position:absolute;left:4641;top:-1162;width:98;height:187
+  VML style: position:absolute;left:5357;top:-1085;width:676;height:200
+  VML style: position:absolute;left:3514;top:-731;width:98;height:187
+  VML style: position:absolute;left:7083;top:-862;width:98;height:187
+  VML style: position:absolute;left:7744;top:-237;width:98;height:187
+  VML style: position:absolute;left:5731;top:-3879;width:487;height:248
+  VML style: position:absolute;left:4212;top:-744;width:448;height:232
+  VML style: position:absolute;left:7207;top:-874;width:448;height:232
+  VML style: position:absolute;left:3771;top:-1373;width:448;height:232
+  VML style: position:absolute;left:7086;top:-1423;width:448;height:232
+  VML style: position:absolute;left:3752;top:-1732;width:448;height:232
+  VML style: position:absolute;left:4341;top:-3939;width:448;height:232
+  VML style: position:absolute;left:7160;top:-3305;width:448;height:232
+  VML style: position:absolute;left:6826;top:-5741;width:493;height:268
+  VML style: position:absolute;left:5857;top:-3141;width:98;height:187
+
+=== AC #13: OIL | तेल तेल
+  DrawML ext: cx=127000 cy=148590
+  bodyPr: {'vert': 'vert', 'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  VML style: position:absolute;margin-left:400.023438pt;margin-top:-14.523712pt;width:15.0pt;height:11.7pt;mso-position-horizontal-relative:page;mso-position-vertical-relative:paragraph;z-index:15751168
+
+=== AC #14: OIL | तेल तेल
+  DrawML ext: cx=127000 cy=148590
+  bodyPr: {'vert': 'vert', 'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  VML style: position:absolute;margin-left:190.359436pt;margin-top:-36.101612pt;width:15.0pt;height:11.7pt;mso-position-horizontal-relative:page;mso-position-vertical-relative:paragraph;z-index:15752192
+
+=== AC #15: OIL | तेल तेल
+  DrawML ext: cx=127000 cy=148590
+  bodyPr: {'vert': 'vert', 'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  VML style: position:absolute;margin-left:213.239334pt;margin-top:155.078598pt;width:15.0pt;height:11.7pt;mso-position-horizontal-relative:page;mso-position-vertical-relative:page;z-index:15751680
+
+=== AC #16: (A) | 1 | 1 1
+  DrawML ext: cx=2548890 cy=1729739
+  DrawML ext: cx=2548394 cy=1729197
+  DrawML ext: cx=131445 cy=118745
+  DrawML ext: cx=62230 cy=118745
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  VML style: position:absolute;left:6611;top:413;width:4014;height:2724
+  VML style: position:absolute;left:9605;top:1229;width:207;height:187
+  VML style: position:absolute;left:7226;top:2048;width:98;height:187
+
+=== AC #17: 2 | 2 2
+  DrawML ext: cx=2967355 cy=1741805
+  DrawML ext: cx=2967228 cy=1693735
+  DrawML ext: cx=800735 cy=573405
+  DrawML ext: cx=800735 cy=573405
+  DrawML ext: cx=147955 cy=319405
+  DrawML ext: cx=147955 cy=319405
+  DrawML ext: cx=62230 cy=118745
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  VML style: position:absolute;left:895;top:-1879;width:4673;height:2668
+  VML style: position:absolute;left:3633;top:-54;width:1261;height:903
+  VML style: position:absolute;left:3633;top:-54;width:1261;height:903
+  VML style: position:absolute;left:914;top:-278;width:98;height:187
+
+=== AC #18: (A) | 1, (a)
+  DrawML ext: cx=2332990 cy=1729739
+  DrawML ext: cx=2332697 cy=1729198
+  DrawML ext: cx=131445 cy=118745
+  DrawML ext: cx=220345 cy=118745
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  VML style: position:absolute;left:0;top:0;width:3674;height:2724
+  VML style: position:absolute;left:2791;top:805;width:207;height:187
+  VML style: position:absolute;left:230;top:1650;width:347;height:187
+
+=== AC #19: 4 | 2 | 1 | 3 | 4 4 | 2 2 | 1 1 | 3 3
+  DrawML ext: cx=2722245 cy=2330450
+  DrawML ext: cx=2711846 cy=1997700
+  DrawML ext: cx=27940 cy=1014730
+  DrawML ext: cx=306070 cy=131445
+  DrawML ext: cx=1270 cy=106680
+  DrawML ext: cx=6350 cy=218440
+  DrawML ext: cx=1270 cy=80010
+  DrawML ext: cx=5080 cy=307340
+  DrawML ext: cx=10160 cy=862330
+  DrawML ext: cx=1270 cy=418465
+  DrawML ext: cx=3810 cy=179070
+  DrawML ext: cx=9525 cy=648335
+  DrawML ext: cx=1270 cy=361315
+  DrawML ext: cx=895350 cy=1472565
+  DrawML ext: cx=3810 cy=69850
+  DrawML ext: cx=335915 cy=1572895
+  DrawML ext: cx=1905 cy=625475
+  DrawML ext: cx=1905 cy=625475
+  DrawML ext: cx=1905 cy=625475
+  DrawML ext: cx=762635 cy=1014730
+  DrawML ext: cx=250190 cy=108585
+  DrawML ext: cx=252095 cy=127635
+  DrawML ext: cx=152400 cy=76835
+  DrawML ext: cx=306070 cy=131445
+  DrawML ext: cx=250190 cy=108585
+  DrawML ext: cx=252095 cy=127635
+  DrawML ext: cx=152400 cy=76835
+  DrawML ext: cx=142481 cy=102480
+  DrawML ext: cx=86496 cy=190778
+  DrawML ext: cx=111125 cy=55562
+  DrawML ext: cx=62230 cy=118745
+  DrawML ext: cx=79375 cy=413384
+  DrawML ext: cx=62230 cy=118745
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  VML style: position:absolute;left:1182;top:-3685;width:4271;height:3146
+  VML style: position:absolute;left:1853;top:-2769;width:1410;height:2319
+  VML style: position:absolute;left:1774;top:-2660;width:529;height:2477
+  VML style: position:absolute;left:2349;top:-1428;width:3;height:985
+  VML style: position:absolute;left:2349;top:-1428;width:3;height:985
+  VML style: position:absolute;left:2302;top:-1758;width:1201;height:1598
+  VML style: position:absolute;left:2198;top:-176;width:225;height:162
+  VML style: position:absolute;left:1776;top:-674;width:137;height:301
+  VML style: position:absolute;left:1681;top:-1644;width:175;height:88
+  VML style: position:absolute;left:3537;top:-2311;width:98;height:187
+  VML style: position:absolute;left:1166;top:-1920;width:125;height:651
+  VML style: position:absolute;left:4297;top:-1352;width:98;height:187
+
+=== AC #20: 2 | 1 | 2 2 | 1 1
+  DrawML ext: cx=98425 cy=451484
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  VML style: position:absolute;margin-left:54.467037pt;margin-top:-49.638618pt;width:11.6pt;height:35.550pt;mso-position-horizontal-relative:page;mso-position-vertical-relative:paragraph;z-index:-17240576
+
+=== AC #21: “A” | “a” | “b” | A | a | b
+  DrawML ext: cx=2607310 cy=2404745
+  DrawML ext: cx=2607054 cy=2140648
+  DrawML ext: cx=799465 cy=766445
+  DrawML ext: cx=799465 cy=766445
+  DrawML ext: cx=799465 cy=766445
+  DrawML ext: cx=799465 cy=766445
+  DrawML ext: cx=170776 cy=112585
+  DrawML ext: cx=374015 cy=201930
+  DrawML ext: cx=374015 cy=201930
+  DrawML ext: cx=171983 cy=207962
+  DrawML ext: cx=273685 cy=1270
+  DrawML ext: cx=273685 cy=1270
+  DrawML ext: cx=69215 cy=1270
+  DrawML ext: cx=69215 cy=1270
+  DrawML ext: cx=69215 cy=1270
+  DrawML ext: cx=1270 cy=172085
+  DrawML ext: cx=154305 cy=61594
+  DrawML ext: cx=154305 cy=61594
+  DrawML ext: cx=154305 cy=61594
+  DrawML ext: cx=160655 cy=30480
+  DrawML ext: cx=160655 cy=30480
+  DrawML ext: cx=1974850 cy=1404620
+  DrawML ext: cx=131445 cy=118745
+  DrawML ext: cx=264160 cy=118745
+  DrawML ext: cx=131445 cy=118745
+  DrawML ext: cx=118110 cy=114935
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  VML style: position:absolute;left:7018;top:34;width:4106;height:3372
+  VML style: position:absolute;left:8889;top:2604;width:1259;height:1207
+  VML style: position:absolute;left:8889;top:2604;width:1259;height:1207
+  VML style: position:absolute;left:8889;top:2604;width:1259;height:1207
+  VML style: position:absolute;left:8889;top:2604;width:1259;height:1207
+  VML style: position:absolute;left:9349;top:3312;width:269;height:178
+  VML style: position:absolute;left:9181;top:3447;width:589;height:318
+  VML style: position:absolute;left:9181;top:3447;width:589;height:318
+  VML style: position:absolute;left:9348;top:3162;width:271;height:328
+  VML style: position:absolute;left:9471;top:3311;width:431;height:2
+  VML style: position:absolute;left:9763;top:3447;width:109;height:2
+  VML style: position:absolute;left:9106;top:3306;width:243;height:97
+  VML style: position:absolute;left:7294;top:565;width:3110;height:2212
+  VML style: position:absolute;left:10674;top:1087;width:207;height:187
+  VML style: position:absolute;left:9287;top:3006;width:416;height:187
+  VML style: position:absolute;left:8911;top:3226;width:207;height:187
+  VML style: position:absolute;left:9882;top:3278;width:186;height:181
+
+=== AC #22: 2 | 1 | 3,(a) | 2 2 | 1 1 | 3,(क)
+  DrawML ext: cx=351790 cy=909955
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  VML style: position:absolute;margin-left:74.026733pt;margin-top:-98.936531pt;width:41.5pt;height:71.650pt;mso-position-horizontal-relative:page;mso-position-vertical-relative:paragraph;z-index:-17238016
+
+=== AC #23: 1,(a) | 4 | 5 | 2 | 6,(c) | 7,(d) | 3,(b) | 1,(क) | 4 4 | 5 5 | 2 2 | 7,(डी) | 3,(ख)
+  DrawML ext: cx=2722245 cy=2331085
+  DrawML ext: cx=2711846 cy=1997845
+  DrawML ext: cx=1270 cy=1014730
+  DrawML ext: cx=306070 cy=131445
+  DrawML ext: cx=1270 cy=106680
+  DrawML ext: cx=6350 cy=218440
+  DrawML ext: cx=1270 cy=80010
+  DrawML ext: cx=5080 cy=296545
+  DrawML ext: cx=5715 cy=862330
+  DrawML ext: cx=16510 cy=698500
+  DrawML ext: cx=1270 cy=361315
+  DrawML ext: cx=1270 cy=106680
+  DrawML ext: cx=6350 cy=218440
+  DrawML ext: cx=1270 cy=80010
+  DrawML ext: cx=5080 cy=296545
+  DrawML ext: cx=5715 cy=862330
+  DrawML ext: cx=16510 cy=698500
+  DrawML ext: cx=1270 cy=361315
+  DrawML ext: cx=2540 cy=170180
+  DrawML ext: cx=6350 cy=627380
+  DrawML ext: cx=6350 cy=627380
+  DrawML ext: cx=6350 cy=627380
+  DrawML ext: cx=6350 cy=627380
+  DrawML ext: cx=1270 cy=730885
+  DrawML ext: cx=1270 cy=730885
+  DrawML ext: cx=762635 cy=1014730
+  DrawML ext: cx=250190 cy=108585
+  DrawML ext: cx=252095 cy=127000
+  DrawML ext: cx=161290 cy=55880
+  DrawML ext: cx=306070 cy=131445
+  DrawML ext: cx=250190 cy=108585
+  DrawML ext: cx=252095 cy=127000
+  DrawML ext: cx=161290 cy=55880
+  DrawML ext: cx=142481 cy=102467
+  DrawML ext: cx=86496 cy=190778
+  DrawML ext: cx=111137 cy=55562
+  DrawML ext: cx=148590 cy=76200
+  DrawML ext: cx=148590 cy=76200
+  DrawML ext: cx=103505 cy=142875
+  DrawML ext: cx=103505 cy=142875
+  DrawML ext: cx=148590 cy=76200
+  DrawML ext: cx=148590 cy=76200
+  DrawML ext: cx=48260 cy=805180
+  DrawML ext: cx=1270 cy=547370
+  DrawML ext: cx=1270 cy=95885
+  DrawML ext: cx=48260 cy=805180
+  DrawML ext: cx=1270 cy=547370
+  DrawML ext: cx=1270 cy=96520
+  DrawML ext: cx=215900 cy=118745
+  DrawML ext: cx=79375 cy=413384
+  DrawML ext: cx=62230 cy=118745
+  DrawML ext: cx=191135 cy=118745
+  DrawML ext: cx=195580 cy=118745
+  DrawML ext: cx=195580 cy=118745
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  VML style: position:absolute;left:1573;top:-3684;width:4271;height:3147
+  VML style: position:absolute;left:2683;top:-2973;width:26;height:1100
+  VML style: position:absolute;left:2683;top:-2973;width:26;height:1100
+  VML style: position:absolute;left:2733;top:-1427;width:10;height:988
+  VML style: position:absolute;left:2733;top:-1427;width:10;height:988
+  VML style: position:absolute;left:2693;top:-1758;width:1201;height:1598
+  VML style: position:absolute;left:2589;top:-176;width:225;height:162
+  VML style: position:absolute;left:2167;top:-673;width:137;height:301
+  VML style: position:absolute;left:2072;top:-1643;width:176;height:88
+  VML style: position:absolute;left:2159;top:-2672;width:76;height:1268
+  VML style: position:absolute;left:2159;top:-2672;width:76;height:1268
+  VML style: position:absolute;left:3042;top:-2280;width:340;height:187
+  VML style: position:absolute;left:1557;top:-1919;width:125;height:651
+  VML style: position:absolute;left:4688;top:-1352;width:98;height:187
+  VML style: position:absolute;left:1682;top:-725;width:301;height:187
+  VML style: position:absolute;left:3437;top:-592;width:308;height:187
+  VML style: position:absolute;left:2117;top:-301;width:308;height:187
+
+=== AC #24: 1 | 1 1
+  DrawML ext: cx=2094864 cy=1802764
+  DrawML ext: cx=2022352 cy=1758965
+  DrawML ext: cx=807085 cy=416559
+  DrawML ext: cx=807085 cy=416559
+  DrawML ext: cx=649605 cy=292735
+  DrawML ext: cx=649605 cy=292735
+  DrawML ext: cx=62230 cy=118745
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  VML style: position:absolute;left:1991;top:108;width:3185;height:2771
+  VML style: position:absolute;left:3332;top:165;width:1271;height:656
+  VML style: position:absolute;left:3332;top:165;width:1271;height:656
+  VML style: position:absolute;left:4632;top:40;width:98;height:187
+
+=== AC #25: 1,(a) | 1,(क)
+  DrawML ext: cx=2281555 cy=1509395
+  DrawML ext: cx=2230221 cy=1495018
+  DrawML ext: cx=72110 cy=158838
+  DrawML ext: cx=548640 cy=453390
+  DrawML ext: cx=548640 cy=453390
+  DrawML ext: cx=104775 cy=285750
+  DrawML ext: cx=235585 cy=118745
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  VML style: position:absolute;left:7269;top:-2378;width:3513;height:2355
+  VML style: position:absolute;left:10691;top:-2375;width:114;height:251
+  VML style: position:absolute;left:9462;top:-1052;width:864;height:714
+  VML style: position:absolute;left:9462;top:-1052;width:864;height:714
+  VML style: position:absolute;left:7212;top:-452;width:165;height:450
+  VML style: position:absolute;left:10270;top:-441;width:371;height:187
+
+=== AC #26: 4 | 3 | 1 | 2 | 5 | 6 | 8 | 7 | (a) | 4 4 | 3 3 | 1 1 | 2 2 | 5 5 | 6 6 | 8 8 | 7 7
+  DrawML ext: cx=5245735 cy=5389245
+  DrawML ext: cx=4901386 cy=5389078
+  DrawML ext: cx=2326005 cy=4017645
+  DrawML ext: cx=2092756 cy=3520617
+  DrawML ext: cx=89535 cy=387985
+  DrawML ext: cx=89535 cy=387985
+  DrawML ext: cx=139065 cy=331470
+  DrawML ext: cx=1076960 cy=500380
+  DrawML ext: cx=148577 cy=148577
+  DrawML ext: cx=148577 cy=148564
+  DrawML ext: cx=255904 cy=55880
+  DrawML ext: cx=109220 cy=145415
+  DrawML ext: cx=509270 cy=69215
+  DrawML ext: cx=300990 cy=248285
+  DrawML ext: cx=194310 cy=36195
+  DrawML ext: cx=688340 cy=67945
+  DrawML ext: cx=2823845 cy=264160
+  DrawML ext: cx=284480 cy=147320
+  DrawML ext: cx=124244 cy=123558
+  DrawML ext: cx=501650 cy=66675
+  DrawML ext: cx=300990 cy=248285
+  DrawML ext: cx=223520 cy=93980
+  DrawML ext: cx=150025 cy=150025
+  DrawML ext: cx=274955 cy=55244
+  DrawML ext: cx=255904 cy=55880
+  DrawML ext: cx=509270 cy=69215
+  DrawML ext: cx=194310 cy=36195
+  DrawML ext: cx=501650 cy=66675
+  DrawML ext: cx=223520 cy=93980
+  DrawML ext: cx=274955 cy=55244
+  DrawML ext: cx=3655060 cy=2534920
+  DrawML ext: cx=554355 cy=54610
+  DrawML ext: cx=403860 cy=40005
+  DrawML ext: cx=1101725 cy=108585
+  DrawML ext: cx=2343785 cy=243204
+  DrawML ext: cx=62230 cy=118745
+  DrawML ext: cx=62230 cy=118745
+  DrawML ext: cx=62230 cy=118745
+  DrawML ext: cx=62230 cy=118745
+  DrawML ext: cx=62230 cy=118745
+  DrawML ext: cx=62230 cy=118745
+  DrawML ext: cx=62230 cy=118745
+  DrawML ext: cx=62230 cy=118745
+  DrawML ext: cx=284480 cy=147320
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  VML style: position:absolute;left:1794;top:-8527;width:7719;height:8487
+  VML style: position:absolute;left:1816;top:-8512;width:3663;height:6327
+  VML style: position:absolute;left:1809;top:-7956;width:3296;height:5545
+  VML style: position:absolute;left:6017;top:-2644;width:141;height:611
+  VML style: position:absolute;left:5051;top:-2500;width:1696;height:788
+  VML style: position:absolute;left:5901;top:-2040;width:234;height:234
+  VML style: position:absolute;left:4676;top:-2405;width:234;height:234
+  VML style: position:absolute;left:8712;top:-1855;width:474;height:391
+  VML style: position:absolute;left:9620;top:-4025;width:196;height:195
+  VML style: position:absolute;left:8816;top:-1119;width:474;height:391
+  VML style: position:absolute;left:7087;top:-355;width:237;height:237
+  VML style: position:absolute;left:3279;top:-4092;width:5756;height:3992
+  VML style: position:absolute;left:3180;top:-3525;width:3691;height:383
+  VML style: position:absolute;left:4697;top:-6300;width:98;height:187
+  VML style: position:absolute;left:4986;top:-2380;width:98;height:187
+  VML style: position:absolute;left:9327;top:-2203;width:98;height:187
+  VML style: position:absolute;left:6198;top:-2011;width:98;height:187
+  VML style: position:absolute;left:8624;top:-1763;width:98;height:187
+  VML style: position:absolute;left:8728;top:-1027;width:98;height:187
+  VML style: position:absolute;left:7367;top:-321;width:98;height:187
+  VML style: position:absolute;left:8472;top:-398;width:98;height:187
+  VML style: position:absolute;left:9606;top:-4042;width:448;height:232
+
+=== AC #27: OIL | तेल तेल
+  DrawML ext: cx=127000 cy=148590
+  bodyPr: {'vert': 'vert', 'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  VML style: position:absolute;margin-left:449.724304pt;margin-top:-50.897415pt;width:15.0pt;height:11.7pt;mso-position-horizontal-relative:page;mso-position-vertical-relative:paragraph;z-index:15763968
+
+=== AC #28: OIL | तेल तेल
+  DrawML ext: cx=127000 cy=148590
+  bodyPr: {'vert': 'vert', 'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  VML style: position:absolute;margin-left:444.52121pt;margin-top:-87.681915pt;width:15.0pt;height:11.7pt;mso-position-horizontal-relative:page;mso-position-vertical-relative:paragraph;z-index:15764480
+
+=== AC #29: OIL | तेल तेल
+  DrawML ext: cx=127000 cy=148590
+  bodyPr: {'vert': 'vert', 'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  VML style: position:absolute;margin-left:322.539093pt;margin-top:-100.105415pt;width:15.0pt;height:11.7pt;mso-position-horizontal-relative:page;mso-position-vertical-relative:paragraph;z-index:15764992
+
+=== AC #30: OIL | तेल तेल
+  DrawML ext: cx=127000 cy=148590
+  bodyPr: {'vert': 'vert', 'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  VML style: position:absolute;margin-left:261.4505pt;margin-top:476.882385pt;width:15.0pt;height:11.7pt;mso-position-horizontal-relative:page;mso-position-vertical-relative:page;z-index:15765504
+
+=== AC #31: 3 | 2 | 3 3 | 2 2
+  DrawML ext: cx=2632075 cy=1461770
+  DrawML ext: cx=2487268 cy=1261922
+  DrawML ext: cx=1067435 cy=259079
+  DrawML ext: cx=1067435 cy=259079
+  DrawML ext: cx=1016000 cy=172085
+  DrawML ext: cx=1016000 cy=172085
+  DrawML ext: cx=25400 cy=25400
+  DrawML ext: cx=25400 cy=25400
+  DrawML ext: cx=25400 cy=25400
+  DrawML ext: cx=25400 cy=25400
+  DrawML ext: cx=579120 cy=537210
+  DrawML ext: cx=579120 cy=537210
+  DrawML ext: cx=62230 cy=118745
+  DrawML ext: cx=62230 cy=118745
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  VML style: position:absolute;left:6927;top:710;width:3917;height:1988
+  VML style: position:absolute;left:8893;top:1336;width:40;height:40
+  VML style: position:absolute;left:8893;top:1336;width:40;height:40
+  VML style: position:absolute;left:8961;top:1172;width:40;height:40
+  VML style: position:absolute;left:8961;top:1172;width:40;height:40
+  VML style: position:absolute;left:8057;top:503;width:912;height:846
+  VML style: position:absolute;left:8057;top:503;width:912;height:846
+  VML style: position:absolute;left:7959;top:395;width:98;height:187
+  VML style: position:absolute;left:10974;top:1950;width:98;height:187
+
+=== AC #32: 1 | 1 1
+  DrawML ext: cx=2168525 cy=1268730
+  DrawML ext: cx=1739101 cy=1268521
+  DrawML ext: cx=982980 cy=205104
+  DrawML ext: cx=982980 cy=205104
+  DrawML ext: cx=867410 cy=157480
+  DrawML ext: cx=867410 cy=157480
+  DrawML ext: cx=62230 cy=118745
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  VML style: position:absolute;left:1988;top:94;width:2739;height:1998
+  VML style: position:absolute;left:5197;top:524;width:98;height:187
+
+=== AC #33: 1 | 2 | 3 | 1 1 | 2 2 | 3 3
+  DrawML ext: cx=2674620 cy=2139950
+  DrawML ext: cx=2462883 cy=2139784
+  DrawML ext: cx=228600 cy=55880
+  DrawML ext: cx=228600 cy=55880
+  DrawML ext: cx=18415 cy=70485
+  DrawML ext: cx=14604 cy=55244
+  DrawML ext: cx=20955 cy=82550
+  DrawML ext: cx=238125 cy=935355
+  DrawML ext: cx=1926589 cy=1477010
+  DrawML ext: cx=1640763 cy=1416875
+  DrawML ext: cx=701675 cy=1256030
+  DrawML ext: cx=701675 cy=1256030
+  DrawML ext: cx=228600 cy=55880
+  DrawML ext: cx=228600 cy=55880
+  DrawML ext: cx=157480 cy=46990
+  DrawML ext: cx=157480 cy=46990
+  DrawML ext: cx=157480 cy=46990
+  DrawML ext: cx=157480 cy=46990
+  DrawML ext: cx=62230 cy=118745
+  DrawML ext: cx=62230 cy=118745
+  DrawML ext: cx=62230 cy=118745
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  VML style: position:absolute;left:6927;top:-246;width:3879;height:3370
+  VML style: position:absolute;left:10317;top:1160;width:360;height:88
+  VML style: position:absolute;left:10317;top:1160;width:360;height:88
+  VML style: position:absolute;left:10291;top:1580;width:375;height:1473
+  VML style: position:absolute;left:6889;top:-246;width:3034;height:2326
+  VML style: position:absolute;left:7174;top:-199;width:2584;height:2232
+  VML style: position:absolute;left:9049;top:672;width:1105;height:1978
+  VML style: position:absolute;left:9049;top:672;width:1105;height:1978
+  VML style: position:absolute;left:10459;top:1846;width:360;height:88
+  VML style: position:absolute;left:10459;top:1846;width:360;height:88
+  VML style: position:absolute;left:10731;top:2755;width:248;height:74
+  VML style: position:absolute;left:10731;top:2755;width:248;height:74
+  VML style: position:absolute;left:10779;top:2932;width:248;height:74
+  VML style: position:absolute;left:10779;top:2932;width:248;height:74
+  VML style: position:absolute;left:10700;top:1063;width:98;height:187
+  VML style: position:absolute;left:10841;top:1749;width:98;height:187
+  VML style: position:absolute;left:11002;top:2658;width:98;height:187
+
+=== AC #34: 2 | 2 2
+  DrawML ext: cx=2632075 cy=1261745
+  DrawML ext: cx=2487255 cy=1261668
+  DrawML ext: cx=1067435 cy=259079
+  DrawML ext: cx=1067435 cy=259079
+  DrawML ext: cx=1016000 cy=172085
+  DrawML ext: cx=1016000 cy=172085
+  DrawML ext: cx=25400 cy=25400
+  DrawML ext: cx=25400 cy=25400
+  DrawML ext: cx=25400 cy=25400
+  DrawML ext: cx=25400 cy=25400
+  DrawML ext: cx=62230 cy=118745
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  VML style: position:absolute;left:1541;top:-116;width:3917;height:1987
+  VML style: position:absolute;left:3507;top:510;width:40;height:40
+  VML style: position:absolute;left:3507;top:510;width:40;height:40
+  VML style: position:absolute;left:3575;top:346;width:40;height:40
+  VML style: position:absolute;left:3575;top:346;width:40;height:40
+  VML style: position:absolute;left:5588;top:1125;width:98;height:187
+
+=== AC #35: 1 | 2 | 3 | 1 1 | 2 2 | 3 3
+  DrawML ext: cx=2674620 cy=2139950
+  DrawML ext: cx=2462883 cy=2139784
+  DrawML ext: cx=228600 cy=55880
+  DrawML ext: cx=228600 cy=55880
+  DrawML ext: cx=18415 cy=70485
+  DrawML ext: cx=14604 cy=55244
+  DrawML ext: cx=20955 cy=82550
+  DrawML ext: cx=238125 cy=935355
+  DrawML ext: cx=1926589 cy=1477010
+  DrawML ext: cx=1640763 cy=1416875
+  DrawML ext: cx=701675 cy=1256030
+  DrawML ext: cx=701675 cy=1256030
+  DrawML ext: cx=228600 cy=55880
+  DrawML ext: cx=228600 cy=55880
+  DrawML ext: cx=157480 cy=46990
+  DrawML ext: cx=157480 cy=46990
+  DrawML ext: cx=157480 cy=46990
+  DrawML ext: cx=157480 cy=46990
+  DrawML ext: cx=62230 cy=118745
+  DrawML ext: cx=62230 cy=118745
+  DrawML ext: cx=62230 cy=118745
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  VML style: position:absolute;left:1542;top:-1910;width:3879;height:3370
+  VML style: position:absolute;left:4931;top:-504;width:360;height:88
+  VML style: position:absolute;left:4931;top:-504;width:360;height:88
+  VML style: position:absolute;left:4905;top:-85;width:375;height:1473
+  VML style: position:absolute;left:1503;top:-1910;width:3034;height:2326
+  VML style: position:absolute;left:1788;top:-1863;width:2584;height:2232
+  VML style: position:absolute;left:3663;top:-992;width:1105;height:1978
+  VML style: position:absolute;left:3663;top:-992;width:1105;height:1978
+  VML style: position:absolute;left:5073;top:181;width:360;height:88
+  VML style: position:absolute;left:5073;top:181;width:360;height:88
+  VML style: position:absolute;left:5345;top:1091;width:248;height:74
+  VML style: position:absolute;left:5345;top:1091;width:248;height:74
+  VML style: position:absolute;left:5393;top:1268;width:248;height:74
+  VML style: position:absolute;left:5393;top:1268;width:248;height:74
+  VML style: position:absolute;left:5314;top:-602;width:98;height:187
+  VML style: position:absolute;left:5455;top:84;width:98;height:187
+  VML style: position:absolute;left:5616;top:994;width:98;height:187
+
+=== AC #36: 1 | 1 1
+  DrawML ext: cx=2628900 cy=1667510
+  DrawML ext: cx=2199210 cy=1604134
+  DrawML ext: cx=321945 cy=336550
+  DrawML ext: cx=318770 cy=444500
+  DrawML ext: cx=318770 cy=444500
+  DrawML ext: cx=1301115 cy=1028700
+  DrawML ext: cx=859155 cy=210185
+  DrawML ext: cx=859155 cy=210185
+  DrawML ext: cx=731520 cy=189865
+  DrawML ext: cx=731520 cy=189865
+  DrawML ext: cx=386080 cy=132715
+  DrawML ext: cx=386080 cy=132715
+  DrawML ext: cx=638175 cy=986790
+  DrawML ext: cx=485140 cy=278130
+  DrawML ext: cx=294246 cy=134200
+  DrawML ext: cx=568325 cy=182880
+  DrawML ext: cx=193509 cy=103540
+  DrawML ext: cx=44450 cy=116839
+  DrawML ext: cx=706120 cy=559435
+  DrawML ext: cx=62230 cy=118745
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  VML style: position:absolute;left:7249;top:-1035;width:3464;height:2527
+  VML style: position:absolute;left:8912;top:214;width:507;height:530
+  VML style: position:absolute;left:8906;top:135;width:502;height:700
+  VML style: position:absolute;left:8906;top:135;width:502;height:700
+  VML style: position:absolute;left:6951;top:-1124;width:2049;height:1620
+  VML style: position:absolute;left:8925;top:58;width:608;height:209
+  VML style: position:absolute;left:8925;top:58;width:608;height:209
+  VML style: position:absolute;left:7985;top:-1125;width:1005;height:1554
+  VML style: position:absolute;left:8236;top:57;width:764;height:438
+  VML style: position:absolute;left:7803;top:17;width:464;height:212
+  VML style: position:absolute;left:6990;top:27;width:895;height:288
+  VML style: position:absolute;left:6839;top:21;width:305;height:164
+  VML style: position:absolute;left:8621;top:35;width:70;height:184
+  VML style: position:absolute;left:6873;top:-1129;width:1112;height:881
+  VML style: position:absolute;left:10819;top:-463;width:98;height:187
+
+=== AC #37: 1 | 1 1
+  DrawML ext: cx=2393315 cy=1858645
+  DrawML ext: cx=2170264 cy=1530146
+  DrawML ext: cx=1266190 cy=866775
+  DrawML ext: cx=153035 cy=47625
+  DrawML ext: cx=1130300 cy=683895
+  DrawML ext: cx=143167 cy=322834
+  DrawML ext: cx=41910 cy=158115
+  DrawML ext: cx=56515 cy=181610
+  DrawML ext: cx=161925 cy=486409
+  DrawML ext: cx=184785 cy=15240
+  DrawML ext: cx=144145 cy=53975
+  DrawML ext: cx=308000 cy=355930
+  DrawML ext: cx=420370 cy=243840
+  DrawML ext: cx=107950 cy=81915
+  DrawML ext: cx=187325 cy=52705
+  DrawML ext: cx=800735 cy=193675
+  DrawML ext: cx=800735 cy=193675
+  DrawML ext: cx=227329 cy=38735
+  DrawML ext: cx=227329 cy=38735
+  DrawML ext: cx=62230 cy=118745
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  VML style: position:absolute;left:6691;top:-2015;width:3418;height:2410
+  VML style: position:absolute;left:8326;top:-2503;width:1994;height:1365
+  VML style: position:absolute;left:8515;top:-1214;width:241;height:75
+  VML style: position:absolute;left:8540;top:-2481;width:1780;height:1077
+  VML style: position:absolute;left:8741;top:-2531;width:226;height:509
+  VML style: position:absolute;left:8326;top:-2503;width:255;height:766
+  VML style: position:absolute;left:8486;top:-2228;width:291;height:24
+  VML style: position:absolute;left:8630;top:-2511;width:227;height:85
+  VML style: position:absolute;left:8544;top:-1971;width:486;height:561
+  VML style: position:absolute;left:9233;top:-2031;width:662;height:384
+  VML style: position:absolute;left:9890;top:-1994;width:170;height:129
+  VML style: position:absolute;left:9554;top:-1775;width:295;height:83
+  VML style: position:absolute;left:10339;top:-1205;width:98;height:187
+
+=== AC #38: 2 | 2 2
+  DrawML ext: cx=2632075 cy=1261745
+  DrawML ext: cx=2487255 cy=1261605
+  DrawML ext: cx=1067435 cy=259079
+  DrawML ext: cx=1067435 cy=259079
+  DrawML ext: cx=1016000 cy=172085
+  DrawML ext: cx=1016000 cy=172085
+  DrawML ext: cx=25400 cy=25400
+  DrawML ext: cx=25400 cy=25400
+  DrawML ext: cx=25400 cy=25400
+  DrawML ext: cx=25400 cy=25400
+  DrawML ext: cx=62230 cy=118745
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  VML style: position:absolute;left:1150;top:-115;width:3917;height:1987
+  VML style: position:absolute;left:3116;top:510;width:40;height:40
+  VML style: position:absolute;left:3116;top:510;width:40;height:40
+  VML style: position:absolute;left:3184;top:347;width:40;height:40
+  VML style: position:absolute;left:3184;top:347;width:40;height:40
+  VML style: position:absolute;left:5197;top:1125;width:98;height:187
+
+=== AC #39: 1 | 1 1
+  DrawML ext: cx=1414780 cy=946785
+  DrawML ext: cx=1414271 cy=853201
+  DrawML ext: cx=363855 cy=161290
+  DrawML ext: cx=363855 cy=161290
+  DrawML ext: cx=62230 cy=118745
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  VML style: position:absolute;left:2127;top:-169;width:2228;height:1344
+  VML style: position:absolute;left:4039;top:-316;width:98;height:187
+
+=== AC #40: 4. Inner rotor | 3. Outer rotor | 4. इनर रोटर | 3. बाहरी रोटर।
+  DrawML ext: cx=3102610 cy=146050
+  DrawML ext: cx=1548765 cy=139700
+  DrawML ext: cx=1548130 cy=139700
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  bodyPr: {'wrap': 'square', 'lIns': '0', 'tIns': '0', 'rIns': '0', 'bIns': '0', 'rtlCol': '0'}
+  VML style: position:absolute;left:8617;top:110;width:2439;height:220
+  VML style: position:absolute;left:6180;top:110;width:2438;height:220

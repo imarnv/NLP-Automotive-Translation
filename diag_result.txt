@@ -1,0 +1,44 @@
+ANCHORS: 86
+  #1: behind=0 vRel=paragraph vOff=-269214 wrap=wrapSquare
+  #4: behind=0 vRel=paragraph vOff=-113785 wrap=wrapSquare
+  #5: behind=1 vRel=paragraph vOff=77525 wrap=wrapTopAndBottom
+  #6: behind=0 vRel=paragraph vOff=-1846824 wrap=wrapSquare
+  #9: behind=0 vRel=paragraph vOff=-1847170 wrap=wrapSquare
+  #10: behind=0 vRel=paragraph vOff=-41540 wrap=wrapSquare
+  #11: behind=0 vRel=paragraph vOff=-12440 wrap=wrapSquare
+  #14: behind=0 vRel=paragraph vOff=-1411801 wrap=wrapSquare
+  #15: behind=1 vRel=paragraph vOff=70283 wrap=wrapTopAndBottom
+  #16: behind=0 vRel=paragraph vOff=-143687 wrap=wrapSquare
+  #17: behind=0 vRel=paragraph vOff=-1450408 wrap=wrapSquare
+  #19: behind=1 vRel=paragraph vOff=78955 wrap=wrapTopAndBottom
+  #20: behind=0 vRel=paragraph vOff=-4453220 wrap=wrapSquare
+  #21: behind=0 vRel=paragraph vOff=-1953848 wrap=wrapSquare
+  #22: behind=0 vRel=paragraph vOff=-184451 wrap=wrapSquare
+  #23: behind=0 vRel=paragraph vOff=-458490 wrap=wrapSquare
+  #39: behind=0 vRel=paragraph vOff=-425408 wrap=wrapSquare
+  #42: behind=0 vRel=paragraph vOff=-1192698 wrap=wrapSquare
+  #44: behind=0 vRel=paragraph vOff=-2339496 wrap=wrapSquare
+  #45: behind=0 vRel=paragraph vOff=-630410 wrap=wrapSquare
+  #47: behind=0 vRel=paragraph vOff=-1256493 wrap=wrapSquare
+  #48: behind=0 vRel=paragraph vOff=-2339333 wrap=wrapSquare
+  #52: behind=0 vRel=paragraph vOff=-1509582 wrap=wrapSquare
+  #53: behind=0 vRel=paragraph vOff=-269214 wrap=wrapSquare
+  #54: behind=0 vRel=paragraph vOff=-5414335 wrap=wrapSquare
+  #55: behind=0 vRel=paragraph vOff=-646397 wrap=wrapSquare
+  #56: behind=0 vRel=paragraph vOff=-1113560 wrap=wrapSquare
+  #57: behind=0 vRel=paragraph vOff=-1271338 wrap=wrapSquare
+  #68: behind=0 vRel=paragraph vOff=-155700 wrap=wrapSquare
+  #69: behind=0 vRel=paragraph vOff=-73040 wrap=wrapSquare
+  #70: behind=0 vRel=paragraph vOff=-1212593 wrap=wrapSquare
+  #71: behind=0 vRel=paragraph vOff=-720354 wrap=wrapSquare
+  #73: behind=0 vRel=paragraph vOff=-1606984 wrap=wrapSquare
+  #74: behind=0 vRel=paragraph vOff=-72745 wrap=wrapSquare
+  #75: behind=0 vRel=paragraph vOff=-100491 wrap=wrapSquare
+  #76: behind=0 vRel=paragraph vOff=-200054 wrap=wrapSquare
+  #77: behind=1 vRel=paragraph vOff=66974 wrap=wrapTopAndBottom
+  #79: behind=0 vRel=paragraph vOff=-2008377 wrap=wrapSquare
+  #80: behind=1 vRel=paragraph vOff=285496 wrap=wrapTopAndBottom
+  #81: behind=1 vRel=paragraph vOff=65443 wrap=wrapTopAndBottom
+Flagged: 40
+VML image shapes: 115
+Inline images: 20

@@ -95,7 +95,6 @@ def restore_placeholders(translated_text: str, placeholder_map: Dict[str, str], 
     has_tamil = any('\u0B80' <= c <= '\u0BFF' for c in restored_text)
     has_devanagari = any('\u0900' <= c <= '\u097F' for c in restored_text)
     
-    # Hindi fallback
     hindi_fallback = {
         "strainer": "स्ट्रेनर", "bolt": "बोल्ट", "nut": "नट", "bracket": "ब्रैकेट",
         "washer": "वाशर", "screw": "स्क्रू", "stand": "स्टैंड", "plug": "प्लग",
@@ -106,6 +105,9 @@ def restore_placeholders(translated_text: str, placeholder_map: Dict[str, str], 
         "Required service material": "आवश्यक सेवा सामग्री",
         "is also described in": "में भी वर्णित है",
         "length": "लंबाई", "Relief": "रिलीफ",
+        "valve": "वाल्व", "Valve": "वाल्व",
+        "components": "कंपोनेंट्स", "Components": "कंपोनेंट्स",
+        "component": "कंपोनेंट", "Component": "कंपोनेंट",
     }
     # Tamil fallback 
     tamil_fallback = {

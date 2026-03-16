@@ -17,6 +17,8 @@ if 'w' not in nsmap:
     nsmap['w'] = "http://schemas.openxmlformats.org/wordprocessingml/2006/main"
 if 'wp' not in nsmap:
     nsmap['wp'] = "http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing"
+if 'w10' not in nsmap:
+    nsmap['w10'] = "urn:schemas-microsoft-com:office:word"
 
 
 def _is_in_table(p_elem):
@@ -176,9 +178,9 @@ def translate_docx(input_path, output_path, translation_helper, target_lang, pro
             else:
                 for t_elem in t_elements: t_elem.text = ""
 
-    # =====================================================================
+    
     #  POST-TRANSLATION CLEANUP (REFINED)
-    # =====================================================================
+     
     body = doc.element.body
 
     # 10. Table row heights (Fix cropping)
@@ -188,11 +190,20 @@ def translate_docx(input_path, output_path, translation_helper, target_lang, pro
             if row.height_rule == WD_ROW_HEIGHT_RULE.EXACTLY:
                 row.height_rule = WD_ROW_HEIGHT_RULE.AT_LEAST
 
-    # 11. Remove Page-Spill Blockers (Only what's absolutely necessary)
+    # 11. Remove Page-Spill Blockers (Exhaustive)
     
-    # 11a. Remove paragraph pageBreakBefore
-    for pbb in list(body.iter(qn('w:pageBreakBefore'))):
-        pbb.getparent().remove(pbb)
+    # 11a. Remove paragraph-level page break triggers from ALL paragraphs
+    #      (Translating only text-heavy paragraphs skip empty ones that might have breaks)
+    for pPr in body.iter(qn('w:pPr')):
+        # Remove pageBreakBefore
+        pbb = pPr.find(qn('w:pageBreakBefore'))
+        if pbb is not None: pPr.remove(pbb)
+        
+        # Remove keepWithNext and keepLines (prevents "clumping" that causes gaps)
+        kwn = pPr.find(qn('w:keepNext'))
+        if kwn is not None: pPr.remove(kwn)
+        kl = pPr.find(qn('w:keepLines'))
+        if kl is not None: pPr.remove(kl)
 
     # 11b. Remove inline page breaks
     for br in list(body.iter(qn('w:br'))):
@@ -200,37 +211,38 @@ def translate_docx(input_path, output_path, translation_helper, target_lang, pro
             parent = br.getparent()
             if parent is not None: parent.remove(br)
 
-    # 11c. Remove stale rendered breaks (Crucial for spill-over flow)
+    # 11c. Remove stale rendered breaks
     for lrpb in list(body.iter(qn('w:lastRenderedPageBreak'))):
         lrpb.getparent().remove(lrpb)
 
     # 11d. Convert ALL intermediate section breaks to CONTINUOUS
-    #      CRITICAL: sectPr with NO <w:type> child defaults to 'nextPage'!
-    #      We must explicitly add/set 'continuous' on every intermediate
-    #      sectPr, not just ones that already have a type element.
-    all_sect_prs = list(body.iter(qn('w:sectPr')))
-    # The very last sectPr is the document body's final section — leave it
-    # alone so page size, margins, headers/footers are preserved.
-    intermediate_sects = all_sect_prs[:-1] if len(all_sect_prs) > 1 else []
-    for sectPr in intermediate_sects:
+    #      Check both body-level and paragraph-level section breaks.
+    all_sects = list(body.iter(qn('w:sectPr')))
+    # The document properties sectPr is always the direct child of body at the end
+    doc_sect_pr = body.find(qn('w:sectPr'))
+    
+    for sectPr in all_sects:
+        # Skip the final document-level section properties
+        if sectPr == doc_sect_pr:
+            continue
+            
         sect_type = sectPr.find(qn('w:type'))
         if sect_type is None:
-            # No type element = implicit nextPage. Add explicit continuous.
             sect_type = etree.SubElement(sectPr, qn('w:type'))
         sect_type.set(qn('w:val'), 'continuous')
 
-    # 12. Fix anchored images — minimal safe normalization
-    #     - allowOverlap so images coexist in tight multi-column layouts
-    #     - distT/distB breathing room so translated text doesn't crowd images
-    #     - positionV: page/margin → paragraph with offset=0 so images follow
-    #       their anchor paragraph after text reflow
-    #     - positionH: intentionally untouched (original horizontal coords are correct)
-    #     - layoutInCell: intentionally untouched
+    # 12. Fix anchored images — prevent overlap with text/tables
+    #     - wrapNone images sit ON TOP of text; convert to wrapSquare
+    #       (wrapSquare lets text flow beside the image = tighter layout)
+    #     - Only reset offsets for page/margin-relative images (broken after reflow)
+    #     - Leave paragraph-relative offsets alone (they're already correct)
+    #     - behindDoc images are background; leave them untouched
     EMU_1MM = 91440   # 1 mm in EMUs
 
     for anchor in body.iter(qn('wp:anchor')):
-        anchor.set('allowOverlap', '1')
+        is_background = anchor.get('behindDoc', '0') == '1'
         anchor.set('simplePos', '0')
+        anchor.set('allowOverlap', '1')
 
         # Minimum top/bottom breathing room
         try:
@@ -242,36 +254,76 @@ def translate_docx(input_path, output_path, translation_helper, target_lang, pro
             anchor.set('distT', str(EMU_1MM))
             anchor.set('distB', str(EMU_1MM))
 
-        # Vertical: convert page/margin-relative to paragraph-relative
-        # so images follow their anchor paragraph across pages after reflow.
-        # Reset offset to 0 — page-coordinate EMU values are not reusable
-        # as paragraph-relative offsets.
+        # Vertical positioning: force all images to paragraph-relative
+        # and clamp both negative AND positive offsets to prevent blank gaps
         pos_v = anchor.find(qn('wp:positionV'))
         if pos_v is not None:
-            if pos_v.get('relativeFrom', '') in ('page', 'margin'):
+            rel_from = pos_v.get('relativeFrom', '')
+            off = pos_v.find(qn('wp:posOffset'))
+            if rel_from != 'paragraph':
+                # Any non-paragraph anchor (page, margin, line, etc.)
+                # is broken after text reflow — reset to paragraph
                 pos_v.set('relativeFrom', 'paragraph')
-                off = pos_v.find(qn('wp:posOffset'))
                 if off is not None:
                     off.text = '0'
+            elif off is not None and off.text:
+                # Clamp extreme offsets that push images too far from their paragraph
+                # Negative: image goes above paragraph (above margin)
+                # Positive: image pushed far below paragraph (creates blank gap)
+                # Threshold: ±914400 EMU = ~1 inch
+                try:
+                    val = int(off.text)
+                    if val < -228600 or val > 914400:
+                        off.text = '0'
+                except (ValueError, TypeError):
+                    pass
 
-    # 13. Remove false vertical lines
-    #     The dashed vertical lines come from TWO sources:
-    #     (a) Paragraph left/right borders (w:pBdr) — sidebar markers
-    #     (b) Table cell borders (w:tcBorders) — layout table dividers
-    #         that become visible as overlapping lines after reflow.
+        # Wrapping: convert wrapNone to wrapSquare for non-background images
+        # wrapNone  = image sits ON TOP of text (overlap)
+        # wrapSquare = text flows BESIDE the image (no overlap, tight layout)
+        # Skip behindDoc images — they're intentionally behind content
+        if not is_background:
+            wrap_none = anchor.find(qn('wp:wrapNone'))
+            if wrap_none is not None:
+                wrap_idx = list(anchor).index(wrap_none)
+                anchor.remove(wrap_none)
+                new_wrap = etree.Element(qn('wp:wrapSquare'))
+                new_wrap.set('wrapText', 'bothSides')
+                new_wrap.set('distT', '0')
+                new_wrap.set('distB', '0')
+                new_wrap.set('distL', '0')
+                new_wrap.set('distR', '0')
+                anchor.insert(wrap_idx, new_wrap)
 
-    # 13a. Paragraph borders (ALL sides — left, right, top, bottom, between, bar)
-    #      These produce stray horizontal and vertical lines after text reflow.
+    # 12b. Remove excessive paragraph spacing
+    EMU_MAX_SPACING = 120  # 6pt (twips) — safer value
+    for p in body.iter(qn('w:p')):
+        pPr = p.find(qn('w:pPr'))
+        if pPr is not None:
+            spacing = pPr.find(qn('w:spacing'))
+            if spacing is not None:
+                for attr in ('before', 'after'):
+                    val = spacing.get(qn(f'w:{attr}'), None)
+                    if val is not None:
+                        try:
+                            if int(val) > EMU_MAX_SPACING:
+                                spacing.set(qn(f'w:{attr}'), str(EMU_MAX_SPACING))
+                        except (ValueError, TypeError):
+                            pass
+
+    # 13. Remove stray lines and borders
+    _VML_LINE = '{urn:schemas-microsoft-com:vml}line'
+    _VML_RECT = '{urn:schemas-microsoft-com:vml}rect'
+    _VML_STROKE = '{urn:schemas-microsoft-com:vml}stroke'
+
+    # 13a. Paragraph borders
     for pBdr in list(body.iter(qn('w:pBdr'))):
         for side in (qn('w:left'), qn('w:right'), qn('w:bar'),
                      qn('w:top'), qn('w:bottom'), qn('w:between')):
             border_elem = pBdr.find(side)
-            if border_elem is not None:
-                pBdr.remove(border_elem)
+            if border_elem is not None: pBdr.remove(border_elem)
 
-    # 13b. Table cell borders — hide ALL visible borders that produce stray lines.
-    #      After text reflow these overlap with content and images.
-    #      Keep 'none' and 'nil' as-is; everything else → nil.
+    # 13b. Table cell borders
     KEEP_VALS = {'none', 'nil'}
     for tcBdr in list(body.iter(qn('w:tcBorders'))):
         for side in (qn('w:left'), qn('w:right'), qn('w:insideV'),
@@ -279,49 +331,53 @@ def translate_docx(input_path, output_path, translation_helper, target_lang, pro
             border_elem = tcBdr.find(side)
             if border_elem is not None:
                 val = border_elem.get(qn('w:val'), 'none')
-                if val not in KEEP_VALS:
-                    border_elem.set(qn('w:val'), 'nil')
+                if val not in KEEP_VALS: border_elem.set(qn('w:val'), 'nil')
 
-    # 13c. Table-level borders — hide inside vertical and horizontal borders
+    # 13c. Table-level borders
     for tblBdr in list(body.iter(qn('w:tblBorders'))):
         for side in (qn('w:insideV'), qn('w:insideH')):
             border_elem = tblBdr.find(side)
             if border_elem is not None:
                 val = border_elem.get(qn('w:val'), 'none')
-                if val not in KEEP_VALS:
-                    border_elem.set(qn('w:val'), 'nil')
+                if val not in KEEP_VALS: border_elem.set(qn('w:val'), 'nil')
 
-    # 13d. VML line elements (v:line) — the PRIMARY source of stray lines.
-    #      These are absolutely-positioned vector lines from the original
-    #      document layout.  After text reflow they stay at their original
-    #      coordinates, cutting through content at wrong positions.
-    #      Diagnostic found 404 v:line elements in a single translated DOCX.
-    _VML_LINE = '{urn:schemas-microsoft-com:vml}line'
-    _VML_STROKE = '{urn:schemas-microsoft-com:vml}stroke'
+    # 13d. VML lines (Global Hide to prevent clutter)
     for vline in list(body.iter(_VML_LINE)):
-        # Make the line invisible without removing the element (preserves
-        # any child elements or references Word expects)
         vline.set('stroked', 'false')
-        vline.set('strokecolor', 'white')
         vline.set('strokeweight', '0')
-        # Also neutralize any v:stroke child element
-        stroke_child = vline.find(_VML_STROKE)
-        if stroke_child is not None:
-            vline.remove(stroke_child)
+        stroke = vline.find(_VML_STROKE)
+        if stroke is not None: vline.remove(stroke)
 
-    # 13e. VML rect elements (v:rect) — bordered rectangles that
-    #      appear as stray outlines after reflow.
-    #      NOTE: v:shape elements are intentionally NOT touched — they form
-    #      actual diagrams (flow charts, connector arrows, labelled components).
-    _VML_RECT = '{urn:schemas-microsoft-com:vml}rect'
+    # 13e. VML rects
     for vrect in list(body.iter(_VML_RECT)):
         vrect.set('stroked', 'false')
-        stroke_child = vrect.find(_VML_STROKE)
-        if stroke_child is not None:
-            vrect.remove(stroke_child)
+        stroke = vrect.find(_VML_STROKE)
+        if stroke is not None: vrect.remove(stroke)
+
+    # 13f. VML shape images — fix wrapping for non-background VML images
+    _VML_SHAPE = '{urn:schemas-microsoft-com:vml}shape'
+    _VML_IMAGEDATA = '{urn:schemas-microsoft-com:vml}imagedata'
+    _VML_GROUP = '{urn:schemas-microsoft-com:vml}group'
+    _W10_WRAP = '{urn:schemas-microsoft-com:office:word}wrap'
+
+    for vshape in list(body.iter(_VML_SHAPE)):
+        # Only fix shapes that CONTAIN images
+        if vshape.find(_VML_IMAGEDATA) is None:
+            continue
+        # Skip shapes inside VML groups (diagrams with labels)
+        parent = vshape.getparent()
+        if parent is not None and parent.tag == _VML_GROUP:
+            continue
+        # Add square wrapping if missing or set to none
+        w10_wrap = vshape.find(_W10_WRAP)
+        if w10_wrap is None:
+            w10_wrap = etree.SubElement(vshape, _W10_WRAP)
+            w10_wrap.set('type', 'square')
+        elif w10_wrap.get('type', 'none') in ('none', ''):
+            w10_wrap.set('type', 'square')
 
     # 14. Fix column separators
-    for sectPr in intermediate_sects:
+    for sectPr in body.iter(qn('w:sectPr')):
         cols = sectPr.find(qn('w:cols'))
         if cols is not None:
             if cols.get(qn('w:sep')):
@@ -329,3 +385,124 @@ def translate_docx(input_path, output_path, translation_helper, target_lang, pro
 
     if progress_callback: progress_callback("Saving final document...", 95)
     doc.save(output_path)
+
+    # 15. Post-save: patch textbox widths in the DrawingML XML
+    #     python-docx only sees the VML fallback, but Word renders DrawingML.
+    #     We must reopen the DOCX as a ZIP and widen textbox shapes in BOTH.
+    _patch_textbox_widths(output_path, scale=1.5)
+
+
+def _patch_textbox_widths(docx_path, scale=1.5):
+    """
+    Reopen saved DOCX (ZIP format) and widen all textbox shapes by `scale`
+    in both DrawingML (a:ext cx) and VML (style width) representations.
+    
+    This fixes vertical text rendering caused by narrow textbox containers
+    when translated text (Hindi/Tamil) is longer than the original English.
+    """
+    import zipfile
+    import shutil
+    import tempfile
+
+    NS = {
+        'w': 'http://schemas.openxmlformats.org/wordprocessingml/2006/main',
+        'wps': 'http://schemas.microsoft.com/office/word/2010/wordprocessingShape',
+        'mc': 'http://schemas.openxmlformats.org/markup-compatibility/2006',
+        'a': 'http://schemas.openxmlformats.org/drawingml/2006/main',
+        'v': 'urn:schemas-microsoft-com:vml',
+    }
+
+    # Read the DOCX ZIP
+    with zipfile.ZipFile(docx_path, 'r') as zin:
+        names = zin.namelist()
+        file_contents = {}
+        for name in names:
+            file_contents[name] = zin.read(name)
+
+    if 'word/document.xml' not in file_contents:
+        return  # Not a standard DOCX
+
+    # Parse document.xml
+    root = etree.fromstring(file_contents['word/document.xml'])
+
+    patched = False
+
+    # Find all mc:AlternateContent blocks with textboxes
+    for ac in root.findall('.//mc:AlternateContent', NS):
+        choice = ac.find('mc:Choice', NS)
+        fallback = ac.find('mc:Fallback', NS)
+
+        # Only patch if there are textboxes (wps:txbx or v:textbox)
+        has_drawml_txbx = ac.find('.//wps:txbx', NS) is not None
+        has_vml_txbx = ac.find('.//v:textbox', NS) is not None
+        if not has_drawml_txbx and not has_vml_txbx:
+            continue
+
+        # Check if any text content exists (skip empty shapes)
+        has_text = False
+        for t_elem in ac.iter(qn('w:t')):
+            if t_elem.text and t_elem.text.strip():
+                has_text = True
+                break
+        if not has_text:
+            continue
+
+        # --- Patch DrawingML side (what Word renders) ---
+        if choice is not None:
+            for wsp in choice.findall('.//wps:wsp', NS):
+                spPr = wsp.find('wps:spPr', NS)
+                if spPr is None:
+                    continue
+                xfrm = spPr.find('.//a:xfrm', NS)
+                if xfrm is None:
+                    continue
+                ext = xfrm.find('a:ext', NS)
+                if ext is None:
+                    continue
+                try:
+                    cx = int(ext.get('cx', '0'))
+                    # Only widen reasonably-sized textboxes (not tiny dots or huge images)
+                    # Textbox labels are typically 100,000-3,000,000 EMU wide
+                    if 50000 < cx < 3000000:
+                        new_cx = int(cx * scale)
+                        ext.set('cx', str(new_cx))
+                        patched = True
+                except (ValueError, TypeError):
+                    pass
+
+        # --- Patch VML side (fallback) ---
+        if fallback is not None:
+            for vshape in fallback.findall('.//v:shape', NS):
+                vml_tb = vshape.find('{urn:schemas-microsoft-com:vml}textbox')
+                if vml_tb is None:
+                    continue
+                style = vshape.get('style', '')
+                if not style:
+                    continue
+                width_match = re.search(r'width\s*:\s*([\d.]+)', style)
+                if width_match:
+                    old_w = float(width_match.group(1))
+                    if old_w > 50:  # Skip tiny shapes
+                        new_w = old_w * scale
+                        style = style[:width_match.start(1)] + "{:.1f}".format(new_w) + style[width_match.end(1):]
+                        vshape.set('style', style)
+                        patched = True
+
+    if not patched:
+        return  # Nothing to change
+
+    # Write modified document.xml back into the ZIP
+    file_contents['word/document.xml'] = etree.tostring(root, xml_declaration=True, encoding='UTF-8', standalone=True)
+
+    # Write a new DOCX (atomic: write to temp, then replace)
+    tmp_fd, tmp_path = tempfile.mkstemp(suffix='.docx')
+    os.close(tmp_fd)
+    try:
+        with zipfile.ZipFile(tmp_path, 'w', zipfile.ZIP_DEFLATED) as zout:
+            for name in names:
+                zout.writestr(name, file_contents[name])
+        shutil.move(tmp_path, docx_path)
+    except Exception:
+        if os.path.exists(tmp_path):
+            os.remove(tmp_path)
+        raise

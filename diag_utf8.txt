@@ -1,0 +1,142 @@
+﻿python : `torch_dtype` 
+is deprecated! Use 
+`dtype` instead!
+At line:1 char:1
++ python 
+diagnose_nllb.py > 
+diag_output.txt 2>&1
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (`torch_dtype`   
+  i...dtype` instea    
+d!:String) [], Rem    
+oteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+Traceback (most recent 
+call last):
+  File "C:\Users\Arnav 
+Mehta\Desktop\NLP-Autom
+otive-Translation\diagn
+ose_nllb.py", line 26, 
+in <module>
+    model = AutoModelFo
+rSeq2SeqLM.from_pretrai
+ned(
+            ^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^
+^^^^
+  File "C:\Users\Arnav 
+Mehta\AppData\Local\Pro
+grams\Python\Python312\
+Lib\site-packages\trans
+formers\models\auto\aut
+o_factory.py", line 
+374, in from_pretrained
+    return model_class.
+from_pretrained(
+           ^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^
+  File "C:\Users\Arnav 
+Mehta\AppData\Local\Pro
+grams\Python\Python312\
+Lib\site-packages\trans
+formers\modeling_utils.
+py", line 3996, in 
+from_pretrained
+    checkpoint_files, 
+sharded_metadata = _get
+_resolved_checkpoint_fi
+les(
+                       
+                  ^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^
+^^^
+  File "C:\Users\Arnav 
+Mehta\AppData\Local\Pro
+grams\Python\Python312\
+Lib\site-packages\trans
+formers\modeling_utils.
+py", line 688, in _get_
+resolved_checkpoint_fil
+es
+    raise OSError(
+OSError: facebook/nllb-
+200-distilled-600M 
+does not appear to 
+have a file named 
+pytorch_model.bin or 
+model.safetensors.
+
+During handling of the 
+above exception, 
+another exception 
+occurred:
+
+Traceback (most recent 
+call last):
+  File "C:\Users\Arnav 
+Mehta\Desktop\NLP-Autom
+otive-Translation\diagn
+ose_nllb.py", line 35, 
+in <module>
+    model = AutoModelFo
+rSeq2SeqLM.from_pretrai
+ned(
+            ^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^
+^^^^
+  File "C:\Users\Arnav 
+Mehta\AppData\Local\Pro
+grams\Python\Python312\
+Lib\site-packages\trans
+formers\models\auto\aut
+o_factory.py", line 
+374, in from_pretrained
+    return model_class.
+from_pretrained(
+           ^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^
+  File "C:\Users\Arnav 
+Mehta\AppData\Local\Pro
+grams\Python\Python312\
+Lib\site-packages\trans
+formers\modeling_utils.
+py", line 3996, in 
+from_pretrained
+    checkpoint_files, 
+sharded_metadata = _get
+_resolved_checkpoint_fi
+les(
+                       
+                  ^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^
+^^^
+  File "C:\Users\Arnav 
+Mehta\AppData\Local\Pro
+grams\Python\Python312\
+Lib\site-packages\trans
+formers\modeling_utils.
+py", line 688, in _get_
+resolved_checkpoint_fil
+es
+    raise OSError(
+OSError: facebook/nllb-
+200-distilled-600M 
+does not appear to 
+have a file named 
+pytorch_model.bin or 
+model.safetensors.
+--- Diagnostic Start ---
+Device: cuda
+1. Loading tokenizer (local-first)...
+   Tokenizer loaded from local cache.
+2. Loading model facebook/nllb-200-distilled-600M to cuda (local-first)...
+   Local model not found. Attempting online fetch...
+--- FAILURE ---
+ERROR: facebook/nllb-200-distilled-600M does not appear to have a file named pytorch_model.bin or model.safetensors.
